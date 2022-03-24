@@ -11,10 +11,10 @@ export default {
   props: {
     field: {
       type: String,
-      default: 'Full Name',
-    },
-  },
-};
+      default: 'Full Name'
+    }
+  }
+}
 </script>
 <style lang="scss" scoped>
 @import './index.scss';
