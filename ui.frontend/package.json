@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev": "watch \"npm run build\" src",
     "serve": "vue-cli-service serve",
     "build": "npm run lint && vue-cli-service build --mode development && clientlib",
     "lint": "vue-cli-service lint"

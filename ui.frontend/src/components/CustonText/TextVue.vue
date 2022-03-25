@@ -1,15 +1,14 @@
 <template>
-  <div class="checkbox-vue" id="ckeckbox">
-    <input type="checkbox" :name="field" />
-    <label :for="field">{{ field }}</label>
-  </div>
+  <div class="text-vue">
+    <p>{{text}}</p>
+    </div>
 </template>
 
 <script>
 export default {
-  name: 'checkboxVue',
+  name: 'TextVue',
   props: {
-    field: {
+    text: {
       type: String,
       default: 'Full Name'
     }
