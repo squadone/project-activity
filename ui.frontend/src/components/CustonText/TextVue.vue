@@ -1,6 +1,6 @@
 <template>
 
-    <p  class="text-vue" :style="{color: Color, fontSize: size +'px'}">{{text}}</p>
+    <p :id="Id" class="text-vue" :style="{color: Color, fontSize: size +'px'}">{{text}}</p>
 
 </template>
 
@@ -19,6 +19,10 @@ export default {
     Color: {
       type: String,
       default: '#222'
+    },
+    Id: {
+      type: String,
+      default: 'text-vue'
     }
 
   }
