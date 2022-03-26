@@ -1,7 +1,7 @@
 <template>
-  <div class="text-vue">
-    <p>{{text}}</p>
-    </div>
+
+    <p  class="text-vue">{{text}}</p>
+
 </template>
 
 <script>
