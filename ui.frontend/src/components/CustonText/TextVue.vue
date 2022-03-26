@@ -1,6 +1,6 @@
 <template>
 
-    <p  class="text-vue">{{text}}</p>
+    <p  class="text-vue" :style="{color: Color, fontSize: size +'px'}">{{text}}</p>
 
 </template>
 
@@ -11,7 +11,16 @@ export default {
     text: {
       type: String,
       default: 'Full Name'
+    },
+    size: {
+      type: String,
+      default: '16'
+    },
+    Color: {
+      type: String,
+      default: '#222'
     }
+
   }
 }
 </script>
