@@ -25,6 +25,16 @@ export default {
       default: 'text-vue'
     }
 
+  },
+  methods: {
+    setAge () {
+      const age = localStorage.getItem('age')
+      const ageBox = document.querySelector('#age-box')
+      ageBox.innerHTML = age
+    }
+  },
+  updated () {
+    setInterval(this.setAge, 1000)
   }
 }
 </script>
