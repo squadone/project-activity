@@ -3,6 +3,8 @@
     flex-direction: column;
     width: 100%;
     color: #767676;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 2%;
 
     input{
         width: 100%;
@@ -10,6 +12,9 @@
         outline: 0;
         border-radius: 5px;
         color: #767676;
+
+        padding-left: 1%;
+        height: 35px;
 
         &:focus{
             outline: 0;
