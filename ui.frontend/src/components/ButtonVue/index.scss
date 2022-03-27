@@ -29,4 +29,10 @@
             font-size: 18px;
         }
     }
+
+    i{
+        &:hover{
+            cursor: pointer;
+        }
+    }
 }

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-03-27T19:31:56.629-03:00"
+        cq:lastModified="{Date}2022-03-27T20:04:46.903-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/vue/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -57,17 +57,6 @@
                             size="40"
                             text="First Tab"/>
                     </responsivegrid>
-                    <title_vue_component
-                        jcr:created="{Date}2022-03-26T19:08:56.296-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T19:27:42.132-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/Title-vue-component"
-                        Color="#111"
-                        Id="titleTeamSingUp"
-                        size="18"
-                        text="Team Sign Up"/>
                     <responsivegrid_20885
                         jcr:created="{Date}2022-03-26T19:15:59.752-03:00"
                         jcr:createdBy="admin"
@@ -81,6 +70,17 @@
                                 offset="1"
                                 width="10"/>
                         </cq:responsive>
+                        <title_vue_component
+                            jcr:created="{Date}2022-03-26T19:08:56.296-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-03-27T19:39:16.957-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/Title-vue-component"
+                            Color="#111"
+                            Id="titleTeamSingUp"
+                            size="18"
+                            text="Team Sign Up"/>
                         <responsivegrid_26449
                             jcr:created="{Date}2022-03-26T19:12:32.597-03:00"
                             jcr:createdBy="admin"
@@ -100,7 +100,7 @@
                                     size="18"
                                     text="Basic"/>
                             </responsivegrid_26449>
-                            <responsivegrid_26449_455376752
+                            <responsivegrid_26449_963665979
                                 jcr:created="{Date}2022-03-26T19:12:32.597-03:00"
                                 jcr:createdBy="admin"
                                 jcr:lastModified="{Date}2022-03-26T19:12:32.597-03:00"
@@ -111,7 +111,7 @@
                                 <text_vue
                                     jcr:created="{Date}2022-03-26T19:10:49.632-03:00"
                                     jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2022-03-27T19:27:51.923-03:00"
+                                    jcr:lastModified="{Date}2022-03-27T20:02:59.003-03:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="vue/components/text-vue"
@@ -129,7 +129,7 @@
                                 <text_vue_236760537
                                     jcr:created="{Date}2022-03-26T19:13:00.135-03:00"
                                     jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2022-03-27T19:28:17.536-03:00"
+                                    jcr:lastModified="{Date}2022-03-27T20:02:47.539-03:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="vue/components/text-vue"
@@ -147,11 +147,11 @@
                                 <text_vue_1450046854
                                     jcr:created="{Date}2022-03-26T19:12:01.465-03:00"
                                     jcr:createdBy="admin"
-                                    jcr:lastModified="{Date}2022-03-27T19:28:20.634-03:00"
+                                    jcr:lastModified="{Date}2022-03-27T20:02:55.926-03:00"
                                     jcr:lastModifiedBy="admin"
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="vue/components/text-vue"
-                                    Color="#111111"
+                                    Color=" #111111"
                                     Id="textCertificates"
                                     size="16"
                                     text="Certificates">
@@ -162,7 +162,7 @@
                                             width="2"/>
                                     </cq:responsive>
                                 </text_vue_1450046854>
-                            </responsivegrid_26449_455376752>
+                            </responsivegrid_26449_963665979>
                         </responsivegrid_26449>
                         <input_vue
                             jcr:created="{Date}2022-03-26T19:16:27.215-03:00"
