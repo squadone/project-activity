@@ -10,7 +10,7 @@ export default {
   props: {
     text: {
       type: String,
-      default: 'Full Name'
+      default: '18'
     },
     size: {
       type: String,
@@ -18,7 +18,7 @@ export default {
     },
     Color: {
       type: String,
-      default: '#222'
+      default: '#767676'
     },
     Id: {
       type: String,
