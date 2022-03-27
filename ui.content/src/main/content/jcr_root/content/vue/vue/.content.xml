@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-03-27T16:47:48.069-03:00"
+        cq:lastModified="{Date}2022-03-27T16:46:19.045-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/vue/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -56,13 +56,6 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="vue/components/helloworld"/>
-                <button
-                    jcr:created="{Date}2022-03-25T19:53:05.982-03:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-03-25T19:53:05.982-03:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="vue/components/button"/>
                 <image_1486162294
                     jcr:created="{Date}2022-03-26T17:38:41.109-03:00"
                     jcr:createdBy="admin"
@@ -106,6 +99,20 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="dam/cfm/components/contentfragment"
                     text=""/>
+                <helloworld_1484186679
+                    jcr:created="{Date}2022-03-26T22:12:51.385-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-03-26T22:12:51.385-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vue/components/helloworld"/>
+                <button
+                    jcr:created="{Date}2022-03-25T19:53:05.982-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-03-25T19:53:05.982-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vue/components/button"/>
                 <responsivegrid_1881267493
                     jcr:created="{Date}2022-03-26T19:40:38.942-03:00"
                     jcr:createdBy="admin"
@@ -637,13 +644,6 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/container"/>
                 </responsivegrid_507861576>
-                <helloworld_1484186679
-                    jcr:created="{Date}2022-03-26T22:12:51.385-03:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-03-26T22:12:51.385-03:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="vue/components/helloworld"/>
                 <responsivegrid_1770720736
                     jcr:created="{Date}2022-03-26T17:42:20.919-03:00"
                     jcr:createdBy="admin"
@@ -659,4 +659,8 @@
             <file/>
         </image>
     </jcr:content>
+    <second-tab/>
+    <trird-tab/>
+    <succes-tab/>
+    <first-tab/>
 </jcr:root>
