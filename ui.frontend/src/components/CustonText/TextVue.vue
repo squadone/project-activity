@@ -10,7 +10,7 @@ export default {
   props: {
     text: {
       type: String,
-      default: 'Full Name'
+      default: '18'
     },
     size: {
       type: String,
@@ -18,13 +18,23 @@ export default {
     },
     Color: {
       type: String,
-      default: '#222'
+      default: '#767676'
     },
     Id: {
       type: String,
       default: 'text-vue'
     }
 
+  },
+  methods: {
+    setAge () {
+      const age = localStorage.getItem('age')
+      const ageBox = document.querySelector('#age-box')
+      ageBox.innerHTML = age
+    }
+  },
+  updated () {
+    setInterval(this.setAge, 1000)
   }
 }
 </script>

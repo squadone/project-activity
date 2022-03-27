@@ -2,7 +2,7 @@
   <div class="select-vue">
       <label :for="label">{{label}}</label>
 
-        <select :name="label" :id="`${label}-id`">
+        <select :name="label" :id="`${label}-id`" @mouseleave="calcAge" >
 
         </select>
   </div>
@@ -50,10 +50,35 @@ export default {
           yearBox.appendChild(element)
         }
       }
+    },
+    calcAge () {
+      const date = new Date()
+      const year = date.getFullYear()
+      const day = date.getDate()
+      const month = date.getMonth()
+
+      const yearBox = document.querySelector('#Year-id')
+      const monthBox = document.querySelector('#Month-id')
+      const dayBox = document.querySelector('#Day-id')
+
+      let age = 18
+      if (monthBox.options[monthBox.selectedIndex].value > month) {
+        age = year - yearBox.options[yearBox.selectedIndex].value - 1
+      } else if (monthBox.options[monthBox.selectedIndex].value < month) {
+        age = year - yearBox.options[yearBox.selectedIndex].value
+      } else {
+        if (dayBox.options[dayBox.selectedIndex].value > day) {
+          age = year - yearBox.options[yearBox.selectedIndex].value - 1
+        } else {
+          age = year - yearBox.options[yearBox.selectedIndex].value
+        }
+      }
+      localStorage.setItem('age', age)
     }
   },
   updated () {
     this.setOptions()
+    this.calcAge()
   }
 }
 </script>
