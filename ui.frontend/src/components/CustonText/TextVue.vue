@@ -1,6 +1,6 @@
 <template>
 
-    <p :id="Id" class="text-vue" :style="{color: Color, fontSize: size +'px'}">{{text}}</p>
+  <p :id="Id" class="text-vue" :style="{color: Color, fontSize: size +'px'}">{{text}}</p>
 
 </template>
 

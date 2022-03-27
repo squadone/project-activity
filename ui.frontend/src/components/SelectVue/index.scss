@@ -1,9 +1,10 @@
 .select-vue{
     display: flex;
     flex-direction: column;
+    font-family: 'Nunito', sans-serif;;
 
     label{
-        font-size: 14px;
+        font-size: 16px;
         color: #AAAAAA;
     }
 
@@ -11,5 +12,6 @@
         color: #AAAAAA;
         border: solid 2px #AAAAAA;
         border-radius: 4px;
+        height: 35px;
     }
 }

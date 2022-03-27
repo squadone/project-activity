@@ -1,6 +1,8 @@
 <template>
-    <div class="button-vue">
-        <button>{{field}}</button>
+    <div :id="Id" class="button-vue">
+        <i :class="ClassLeft"></i>
+        <button >{{field}}</button>
+        <i :class="Class"></i>
     </div>
 </template>
 
@@ -11,6 +13,18 @@ export default {
     field: {
       type: String,
       default: 'Button Text'
+    },
+    Id: {
+      type: String,
+      default: 'button-vue'
+    },
+    Class: {
+      type: String,
+      default: ''
+    },
+    ClassLeft: {
+      type: String,
+      default: ''
     }
   }
 }

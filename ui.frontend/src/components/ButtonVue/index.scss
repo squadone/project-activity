@@ -1,8 +1,32 @@
 .button-vue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border: 0;
+    background: #074EE8;
+    border-radius: 4px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+
+    &:hover{
+        background: #022a7a;
+        transition: 0.5;
+    }
+
     button{
-        color: white;
+        text-decoration: none;
         border: 0;
-        background: #074EE8;
-        border-radius: 4px;
+        background: transparent;
+        font-family: 'Nunito', sans-serif;
+        font-size: 16px;
+        color: #ffffff;
+        margin: 0 3px 0 3px;
+
+        &:hover{
+            cursor: pointer;
+            font-size: 18px;
+        }
     }
 }
