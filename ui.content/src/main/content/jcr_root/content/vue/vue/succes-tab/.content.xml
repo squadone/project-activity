@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-03-27T16:44:43.674-03:00"
+        cq:lastModified="{Date}2022-03-27T21:37:43.263-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/vue/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -37,19 +37,24 @@
                         <text_vue_copy
                             jcr:created="{Date}2022-03-26T19:07:23.440-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-26T19:07:36.627-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:34:15.962-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
+                            Color="#111111"
+                            fontFamily="Inter"
+                            Id="textForms"
+                            size="18"
                             text="Forms"/>
                         <title_vue_component_
                             jcr:created="{Date}2022-03-26T19:06:07.367-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:29:29.074-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:34:04.376-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/Title-vue-component"
                             Color="#074EE8"
+                            Id="titleFirst"
                             size="40"
                             text="Success Tab"/>
                     </responsivegrid>
@@ -69,21 +74,21 @@
                         <text_vue
                             jcr:created="{Date}2022-03-27T16:31:02.084-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:32:11.454-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:31:19.590-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
-                            Color="#000"
+                            Color=" #000000"
                             size="16"
                             text="Your data has been sent successfully!  "/>
                         <text_vue_1693665085
                             jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:34:12.051-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:31:27.991-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
-                            Color="#000"
+                            Color=" #000000"
                             size="16"
                             text="Full Name:">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -96,10 +101,13 @@
                         <text_vue_860434156
                             jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:32:50.415-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:37:43.259-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="vue/components/text-vue">
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            size="16"
+                            text="Mauricio Reis / Pablo Barral / Rafael Reis">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
@@ -110,11 +118,11 @@
                         <text_vue_1693665085_
                             jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:35:13.797-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:31:34.421-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
-                            Color="#000"
+                            Color=" #000000"
                             size="16"
                             text="Email:">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -127,11 +135,13 @@
                         <text_vue_860434156_c
                             jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:35:33.797-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:36:23.143-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
-                            text="qwer@qwer.qwe">
+                            Color=" #000000"
+                            size="16"
+                            text="mauricio_lindo_de_doer@uol.com">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
@@ -142,11 +152,11 @@
                         <text_vue_1693665085__379262020
                             jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:36:17.329-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:31:41.276-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
-                            Color="#000"
+                            Color=" #000000"
                             size="16"
                             text="Birthday:">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -159,10 +169,12 @@
                         <text_vue_860434156_c_435952008
                             jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:36:32.557-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:31:45.123-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            size="16"
                             text="17/02/1874">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -174,11 +186,11 @@
                         <text_vue_1693665085__1271350704
                             jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:36:56.074-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:31:49.685-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
-                            Color="#000"
+                            Color=" #000000"
                             size="16"
                             text="Age:">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -191,11 +203,13 @@
                         <text_vue_860434156_c_815749508
                             jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:37:06.118-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:35:16.277-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
-                            text="785">
+                            Color=" #000000"
+                            size="16"
+                            text="13">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
@@ -206,11 +220,11 @@
                         <text_vue_1693665085__1823138012
                             jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:39:07.841-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:31:56.518-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
-                            Color="#000"
+                            Color=" #000000"
                             size="16"
                             text="GitHub:">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -223,10 +237,12 @@
                         <text_vue_860434156_c_1438234724
                             jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:39:37.813-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:31:59.568-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            size="16"
                             text="reisrafaell">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -238,11 +254,11 @@
                         <text_vue_1693665085__1020692765
                             jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:40:15.084-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:32:04.668-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
-                            Color="#000"
+                            Color=" #000000"
                             size="16"
                             text="Certificates:">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -255,11 +271,11 @@
                         <text_vue_860434156_c_389907882
                             jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:40:41.744-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:32:08.678-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
-                            Color="#000"
+                            Color=" #000000"
                             size="16"
                             text="https://cursos.alura.com.br/certificate/4ad81d87-33a3-483df.">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -272,11 +288,11 @@
                         <text_vue_860434156_c_1456037718
                             jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:40:41.744-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:32:12.735-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
-                            Color="#000"
+                            Color=" #000000"
                             size="16"
                             text="https://cursos.alura.com.br/certificate/4ad81d87-33a3-483df.">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -289,11 +305,11 @@
                         <text_vue_860434156_c_1782400055
                             jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:40:41.744-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:32:17.526-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
-                            Color="#000"
+                            Color=" #000000"
                             size="16"
                             text="https://cursos.alura.com.br/certificate/4ad81d87-33a3-483df.">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -306,11 +322,11 @@
                         <text_vue_860434156_c_191863243
                             jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:40:41.744-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:32:20.712-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
-                            Color="#000"
+                            Color=" #000000"
                             size="16"
                             text="https://cursos.alura.com.br/certificate/4ad81d87-33a3-483df.">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -323,11 +339,11 @@
                         <text_vue_860434156_c_2123638654
                             jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:40:41.744-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:32:23.829-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
-                            Color="#000"
+                            Color=" #000000"
                             size="16"
                             text="https://cursos.alura.com.br/certificate/4ad81d87-33a3-483df.">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -340,11 +356,11 @@
                         <text_vue_1693665085__514022008
                             jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:42:23.766-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:32:27.695-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
-                            Color="#000"
+                            Color=" #000000"
                             size="16"
                             text="Team Name:">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -357,11 +373,13 @@
                         <text_vue_860434156_c_1557605324
                             jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:42:34.225-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:36:45.844-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
-                            text="qwe">
+                            Color=" #000000"
+                            size="16"
+                            text="SquadOne">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
@@ -372,11 +390,11 @@
                         <text_vue_1693665085__420110077
                             jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:43:01.908-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:32:34.280-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
-                            Color="#000"
+                            Color=" #000000"
                             size="16"
                             text="Institution:">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -389,11 +407,13 @@
                         <text_vue_860434156_c_1517875456
                             jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:43:11.056-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:36:51.044-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
-                            text="qweas">
+                            Color=" #000000"
+                            size="16"
+                            text="Uol">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
@@ -404,11 +424,11 @@
                         <text_vue_1693665085__2138683374
                             jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:43:32.479-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:32:39.931-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
-                            Color="#000"
+                            Color=" #000000"
                             size="16"
                             text="Graduation:">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -421,11 +441,13 @@
                         <text_vue_860434156_c_388680065
                             jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:43:42.922-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:37:12.720-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/text-vue"
-                            text="qweasd">
+                            Color=" #000000"
+                            size="16"
+                            text="em análise">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
@@ -436,10 +458,11 @@
                         <custom_vue
                             jcr:created="{Date}2022-03-26T21:43:41.525-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T16:44:27.225-03:00"
+                            jcr:lastModified="{Date}2022-03-27T21:21:21.158-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/custom-vue"
+                            ClassLeft="fa-solid fa-check"
                             field="Return">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
