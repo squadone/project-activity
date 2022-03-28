@@ -1,6 +1,6 @@
 <template>
 
-  <p :id="Id" class="text-vue" :style="{color: Color, fontSize: size +'px'}">{{text}}</p>
+  <p :id="Id" class="text-vue" :style="{fontFamily: fontFamily, color: Color, fontSize: size +'px'}">{{text}}</p>
 
 </template>
 
@@ -23,8 +23,11 @@ export default {
     Id: {
       type: String,
       default: 'text-vue'
+    },
+    fontFamily: {
+      type: String,
+      default: 'Nunito'
     }
-
   },
   methods: {
     setAge () {
