@@ -31,6 +31,21 @@ export default {
     const elementTitle = document.querySelector('[cqpath="/content/vue/vue/first-tab/jcr:content/root/responsivegrid/responsivegrid_20885/responsivegrid_26449/responsivegrid_26449_963665979"] div')
     const element = document.querySelector('[cqpath="/content/vue/vue/first-tab/jcr:content/root/responsivegrid/responsivegrid_20885"] div')
     const elementAgeBox = document.querySelector('[cqpath="/content/vue/vue/first-tab/jcr:content/root/responsivegrid/responsivegrid_20885/responsivegrid/responsivegrid_15929"]')
+    const elementSecondBox = document.querySelector('[cqpath="/content/vue/vue/second-tab/jcr:content/root/responsivegrid/responsivegrid_16067"] div')
+    const elementSecondBoxTitle = document.querySelector('[cqpath="/content/vue/vue/second-tab/jcr:content/root/responsivegrid/responsivegrid_16067/responsivegrid_26449"] ')
+    const elementSecondBoxInput = document.querySelector('[ cqpath="/content/vue/vue/second-tab/jcr:content/root/responsivegrid/responsivegrid_16067/responsivegrid_25683"] ')
+
+    elementSecondBox.style.backgroundColor = '#fff'
+    elementSecondBox.style.height = '76vh'
+    elementSecondBox.style.display = 'flex'
+    elementSecondBox.style.flexDirection = 'column'
+    elementSecondBox.style.borderRadius = '20px'
+    elementSecondBox.style.margin = '2% auto'
+    elementSecondBox.style.width = '70%'
+    elementSecondBox.style.paddingTop = '30px'
+    elementSecondBoxTitle.style.margin = '30px auto'
+    elementSecondBoxInput.style.marginBottom = '32vh'
+
     element.style.backgroundColor = '#fff'
     element.style.height = '80vh'
     element.style.borderRadius = '20px'
