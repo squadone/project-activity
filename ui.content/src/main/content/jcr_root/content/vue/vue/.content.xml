@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-03-27T16:46:19.045-03:00"
+        cq:lastModified="{Date}2022-03-28T23:42:30.095-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/vue/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -83,7 +83,14 @@
                     jcr:lastModified="{Date}2022-03-26T17:29:31.776-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="vue/components/container"/>
+                    sling:resourceType="vue/components/container">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                    </cq:responsive>
+                </container_174265167>
                 <image_941789642
                     jcr:created="{Date}2022-03-26T17:38:45.391-03:00"
                     jcr:createdBy="admin"
@@ -121,12 +128,20 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
+                    <title
+                        jcr:created="{Date}2022-03-28T23:40:41.024-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-03-28T23:40:41.024-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="vue/components/title"/>
                     <responsivegrid
                         jcr:created="{Date}2022-03-26T17:41:30.752-03:00"
                         jcr:createdBy="admin"
                         jcr:lastModified="{Date}2022-03-26T17:41:30.752-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
+                        jcr:title="Responsive Grid"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
                         <cq:responsive jcr:primaryType="nt:unstructured"/>
                         <text_vue
@@ -653,7 +668,23 @@
                     sling:resourceType="wcm/foundation/components/responsivegrid">
                     <cq:responsive jcr:primaryType="nt:unstructured"/>
                 </responsivegrid_1770720736>
+                <checkbox_vue
+                    jcr:created="{Date}2022-03-24T12:25:20.790-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-03-24T12:33:52.810-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vue/components/checkbox-vue"
+                    field=" meu input"/>
             </responsivegrid>
+            <responsivegrid_466943597 jcr:primaryType="nt:unstructured">
+                <container_vue_224208843
+                    jcr:lastModified="{Date}2022-03-28T17:18:18.357-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vue/components/container-vue"
+                    layout="responsiveGrid"/>
+            </responsivegrid_466943597>
         </root>
         <image jcr:primaryType="nt:unstructured">
             <file/>
