@@ -37,7 +37,6 @@ export default {
     elementThirdBox.style.margin = '2% auto'
     elementThirdBox.style.width = '70%'
     elementThirdBox.style.justifyContent = 'space-between'
-
   }
 }
 </script>
