@@ -34,6 +34,7 @@ export default {
     const elementSecondBox = document.querySelector('[cqpath="/content/vue/vue/second-tab/jcr:content/root/responsivegrid/responsivegrid_16067"] div')
     const elementSecondBoxTitle = document.querySelector('[cqpath="/content/vue/vue/second-tab/jcr:content/root/responsivegrid/responsivegrid_16067/responsivegrid_26449"] ')
     const elementSecondBoxInput = document.querySelector('[ cqpath="/content/vue/vue/second-tab/jcr:content/root/responsivegrid/responsivegrid_16067/responsivegrid_25683"] ')
+    const elementThirdBox = document.querySelector('[cqpath="/content/vue/vue/trird-tab/jcr:content/root/responsivegrid/responsivegrid_25683"]')
 
     elementSecondBox.style.backgroundColor = '#fff'
     elementSecondBox.style.height = '76vh'
@@ -45,6 +46,15 @@ export default {
     elementSecondBox.style.paddingTop = '30px'
     elementSecondBoxTitle.style.margin = '30px auto'
     elementSecondBoxInput.style.marginBottom = '32vh'
+
+    elementThirdBox.style.backgroundColor = '#fff'
+    elementThirdBox.style.height = '76vh'
+    elementThirdBox.style.display = 'flex'
+    elementThirdBox.style.flexDirection = 'column'
+    elementThirdBox.style.borderRadius = '20px'
+    elementThirdBox.style.margin = '2% auto'
+    elementThirdBox.style.width = '70%'
+    elementThirdBox.style.justifyContent = 'space-between'
 
     element.style.backgroundColor = '#fff'
     element.style.height = '80vh'
