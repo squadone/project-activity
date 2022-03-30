@@ -22,8 +22,19 @@ export default {
       type: String,
       default: 'title-vue'
     }
+  },
+  updated () {
+    const elementSUccessBox = document.querySelector('[cqpath="/content/vue/vue/succes-tab/jcr:content/root/responsivegrid/responsivegrid_16067"] div')
+
+    if (elementSUccessBox) {
+      elementSUccessBox.style.backgroundColor = '#fff'
+      elementSUccessBox.style.borderRadius = '20px'
+      elementSUccessBox.style.margin = '2% auto'
+      elementSUccessBox.style.MaxWidth = '750px'
+    }
   }
 }
+
 </script>
 <style lang="scss" scoped>
 @import "./index.scss";
