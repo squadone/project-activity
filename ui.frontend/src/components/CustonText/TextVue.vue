@@ -35,10 +35,13 @@ export default {
       const ageBox = document.querySelector('#age-box')
       ageBox.innerHTML = age
     }
+
   },
+
   updated () {
     setInterval(this.setAge, 1000)
     const elementThirdBox = document.querySelector('[cqpath="/content/vue/vue/trird-tab/jcr:content/root/responsivegrid/responsivegrid_25683"] div')
+
     elementThirdBox.style.backgroundColor = '#fff'
     elementThirdBox.style.height = '76vh'
     elementThirdBox.style.display = 'flex'
@@ -48,8 +51,10 @@ export default {
     elementThirdBox.style.width = '70%'
     elementThirdBox.style.justifyContent = 'space-between'
   }
+
 }
 </script>
 <style lang="scss" scoped>
+
 @import "./index.scss";
 </style>
