@@ -31,9 +31,11 @@ export default {
   },
   methods: {
     setAge () {
-      const age = localStorage.getItem('age')
+      const age = sessionStorage.getItem('age')
       const ageBox = document.querySelector('#age-box')
-      ageBox.innerHTML = age
+      if (ageBox) {
+        ageBox.innerHTML = age
+      }
     }
 
   },
