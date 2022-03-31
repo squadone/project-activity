@@ -2,6 +2,7 @@
   <div class="checkbox-vue" id="ckeckbox">
     <input id="checkboxVueJs" type="checkbox" :name="field" />
     <label :for="field">{{ field }}</label>
+    <p id="messageErro">{{textErrorMessase}}</p>
   </div>
 </template>
 
@@ -12,6 +13,10 @@ export default {
     field: {
       type: String,
       default: 'Full Name'
+    },
+    textErrorMessase: {
+      type: String,
+      default: ''
     }
   },
   updated () {

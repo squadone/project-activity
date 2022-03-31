@@ -39,6 +39,10 @@ export default {
         if (document.querySelector('#checkboxVueJs').checked) {
           this.$router.push({ name: 'Second-Tab' })
           location.reload()
+        } else {
+          document.querySelector('#birthdayMessage').style.visibility = 'visible'
+          document.querySelector('#messageErro').style.visibility = 'visible'
+          document.querySelector('#textError').style.visibility = 'visible'
         }
       } else {
         if (this.ButtonId === 'secondPage') {
@@ -48,6 +52,7 @@ export default {
         } else if (this.ButtonId === 'returnPage') {
           this.$router.push({ name: 'First-Tab' })
         }
+        location.reload()
       }
     }
 

@@ -1,6 +1,12 @@
 <template>
-  <div class="input-vue">
+  <div class="input-vue" id="inputVue">
+    <div class="Input">
+
       <label :for="field">{{field}}</label>
+      <p id="textError">{{textErrorMessase}}</p>
+
+    </div>
+
       <input type="text"
       :name="field"
       :placeholder="field"
@@ -20,6 +26,10 @@ export default {
     },
     type: {
       type: String
+    },
+    textErrorMessase: {
+      type: String,
+      default: ''
     }
   },
   data () {
