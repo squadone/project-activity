@@ -3,7 +3,7 @@
       <label :for="label">{{label}}</label>
 
         <select :name="label" :id="`${label}-id`" @mouseleave="calcAge" >
-
+          <option v-if="label=='Certificate'" value="default">Certificate</option>
         </select>
   </div>
 </template>
@@ -85,6 +85,14 @@ export default {
         certBox.appendChild(cert5)
       }
     },
+    delCertif () {
+      const certBox = document.querySelector(`#${this.label}-id`)
+      if (certBox.options[certBox.selectedIndex].value !== 'default') {
+        const cert = certBox.options[certBox.selectedIndex].value
+        sessionStorage.removeItem(`${cert}`)
+        certBox.removeChild(document.querySelector(`#${cert}`))
+      }
+    },
     calcAge () {
       const date = new Date()
       const year = date.getFullYear()
@@ -114,6 +122,7 @@ export default {
     this.setOptions()
     if (this.label === 'Certificate') {
       setInterval(this.setCertif, 1000)
+      setInterval(this.delCertif, 1000)
     } else {
       this.calcAge()
     }
