@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-03-30T13:36:24.733-03:00"
+        cq:lastModified="{Date}2022-03-31T12:27:59.252-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/vue/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -156,10 +156,11 @@
                     <custom_vue
                         jcr:created="{Date}2022-03-27T16:23:05.171-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T20:27:52.439-03:00"
+                        jcr:lastModified="{Date}2022-03-31T12:10:30.046-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/custom-vue"
+                        ButtonId="third-tab"
                         Class="fa-solid fa-angle-right"
                         ClassLeft="fa-solid fa-plus"
                         field="More">
@@ -221,10 +222,11 @@
                     <custom_vue_543141912
                         jcr:created="{Date}2022-03-26T21:43:41.525-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T21:20:30.000-03:00"
+                        jcr:lastModified="{Date}2022-03-31T12:27:59.238-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/custom-vue"
+                        ButtonId="ThirdTab"
                         ClassLeft="fa-solid fa-check"
                         field="Finish">
                         <cq:responsive jcr:primaryType="nt:unstructured">
