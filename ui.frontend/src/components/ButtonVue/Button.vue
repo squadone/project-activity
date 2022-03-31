@@ -1,7 +1,8 @@
 <template>
     <div :id="Id" class="button-vue">
         <i :class="ClassLeft"></i>
-        <button >{{field}}</button>
+
+        <button :id="ButtonId" type="button" @click="next">{{field}}</button>
         <i :class="Class"></i>
     </div>
 </template>
@@ -25,7 +26,27 @@ export default {
     ClassLeft: {
       type: String,
       default: ''
+    },
+    ButtonId: {
+      type: String,
+      default: ''
     }
+  },
+
+  methods: {
+    next () {
+      if (this.ButtonId === 'firstPage') {
+        this.$router.push({ name: 'Second-Tab' })
+      } else if (this.ButtonId === 'secondPage') {
+        this.$router.push({ name: 'Third-Tab' })
+      } else if (this.ButtonId === 'ThirdTab') {
+        this.$router.push({ name: 'Success-Tab' })
+      } else if (this.ButtonId === 'returnPage') {
+        this.$router.push({ name: 'First-Tab' })
+      }
+      location.reload()
+    }
+
   },
   updated () {
     const elementThirdBox = document.querySelector('[cqpath="/content/vue/vue/trird-tab/jcr:content/root/responsivegrid/responsivegrid_25683"] div')
@@ -37,7 +58,6 @@ export default {
     elementThirdBox.style.margin = '2% auto'
     elementThirdBox.style.width = '70%'
     elementThirdBox.style.justifyContent = 'space-between'
-
   }
 }
 </script>
