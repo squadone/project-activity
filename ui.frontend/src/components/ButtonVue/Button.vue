@@ -35,16 +35,20 @@ export default {
 
   methods: {
     next () {
-      if (this.ButtonId === 'firstPage') {
-        this.$router.push({ name: 'Second-Tab' })
-      } else if (this.ButtonId === 'secondPage') {
-        this.$router.push({ name: 'Third-Tab' })
-      } else if (this.ButtonId === 'ThirdTab') {
-        this.$router.push({ name: 'Success-Tab' })
-      } else if (this.ButtonId === 'returnPage') {
-        this.$router.push({ name: 'First-Tab' })
+      if (document.querySelector('#checkboxVueJs')) {
+        if (document.querySelector('#checkboxVueJs').checked) {
+          this.$router.push({ name: 'Second-Tab' })
+          location.reload()
+        }
+      } else {
+        if (this.ButtonId === 'secondPage') {
+          this.$router.push({ name: 'Third-Tab' })
+        } else if (this.ButtonId === 'ThirdTab') {
+          this.$router.push({ name: 'Success-Tab' })
+        } else if (this.ButtonId === 'returnPage') {
+          this.$router.push({ name: 'First-Tab' })
+        }
       }
-      location.reload()
     }
 
   },
