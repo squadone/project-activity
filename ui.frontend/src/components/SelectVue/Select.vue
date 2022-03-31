@@ -115,7 +115,7 @@ export default {
           age = year - yearBox.options[yearBox.selectedIndex].value
         }
       }
-      localStorage.setItem('age', age)
+      sessionStorage.setItem('age', age)
     }
   },
   updated () {
