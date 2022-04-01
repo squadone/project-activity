@@ -3,7 +3,7 @@
       <label :for="label">{{label}}</label>
 
         <select :name="label" :id="`${label}-id`" @mouseleave="calcAge" >
-
+          <option v-if="label=='Certificate'" value="default">Certificate</option>
         </select>
   </div>
 </template>
@@ -55,6 +55,48 @@ export default {
         }
       }
     },
+    setCertif () {
+      const certBox = document.querySelector(`#${this.label}-id`)
+      if (sessionStorage.getItem('Cert1') && !document.querySelector('#Cert1')) {
+        const cert1 = document.createElement('option')
+        cert1.value = 'Cert1'
+        cert1.id = 'Cert1'
+        cert1.innerText = sessionStorage.getItem('Cert1')
+        certBox.appendChild(cert1)
+      } if (sessionStorage.getItem('Cert2') && !document.querySelector('#Cert2')) {
+        const cert2 = document.createElement('option')
+        cert2.value = 'Cert2'
+        cert2.id = 'Cert2'
+        cert2.innerText = sessionStorage.getItem('Cert2')
+        certBox.appendChild(cert2)
+      } if (sessionStorage.getItem('Cert3') && !document.querySelector('#Cert3')) {
+        const cert3 = document.createElement('option')
+        cert3.value = 'Cert3'
+        cert3.id = 'Cert3'
+        cert3.innerText = sessionStorage.getItem('Cert3')
+        certBox.appendChild(cert3)
+      } if (sessionStorage.getItem('Cert4') && !document.querySelector('#Cert4')) {
+        const cert4 = document.createElement('option')
+        cert4.value = 'Cert4'
+        cert4.id = 'Cert4'
+        cert4.innerText = sessionStorage.getItem('Cert4')
+        certBox.appendChild(cert4)
+      } if (sessionStorage.getItem('Cert5') && !document.querySelector('#Cert5')) {
+        const cert5 = document.createElement('option')
+        cert5.value = 'Cert5'
+        cert5.id = 'Cert5'
+        cert5.innerText = sessionStorage.getItem('Cert5')
+        certBox.appendChild(cert5)
+      }
+    },
+    delCertif () {
+      const certBox = document.querySelector(`#${this.label}-id`)
+      if (certBox.options[certBox.selectedIndex].value !== 'default') {
+        const cert = certBox.options[certBox.selectedIndex].value
+        sessionStorage.removeItem(`${cert}`)
+        certBox.removeChild(document.querySelector(`#${cert}`))
+      }
+    },
     calcAge () {
       const date = new Date()
       const year = date.getFullYear()
@@ -77,12 +119,26 @@ export default {
           age = year - yearBox.options[yearBox.selectedIndex].value
         }
       }
-      localStorage.setItem('age', age)
+      sessionStorage.setItem('age', age)
     }
   },
   updated () {
+    const socialBox = document.querySelector('[cqpath="/content/vue/vue/first-tab/jcr:content/root/responsivegrid/responsivegrid_20885/responsivegrid_26449/responsivegrid_26449_963665979/text_vue_236760537"] ')
+    const certificatesBox = document.querySelector('[cqpath="/content/vue/vue/first-tab/jcr:content/root/responsivegrid/responsivegrid_20885/responsivegrid_26449/responsivegrid_26449_963665979/text_vue_1450046854"] ')
+
+    socialBox.style.width = '30%'
+    socialBox.style.margin = '0 '
+
+    certificatesBox.style.width = '30%'
+    certificatesBox.style.margin = '0 '
+
     this.setOptions()
-    this.calcAge()
+    if (this.label === 'Certificate') {
+      setInterval(this.setCertif, 1000)
+      setInterval(this.delCertif, 1000)
+    } else {
+      this.calcAge()
+    }
   }
 }
 </script>

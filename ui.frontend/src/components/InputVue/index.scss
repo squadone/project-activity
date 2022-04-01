@@ -1,4 +1,4 @@
-.input-vue{
+#inputVue{
     display: flex;
     flex-direction: column;
     width: 98%;
@@ -155,4 +155,33 @@
             outline: 0;
         }
     }
+}
+
+#textLabel{
+         display: flex;
+        justify-content: end;
+        align-items: center;
+        height: 27px;
+
+        p{
+            margin-left: 32px;
+            color:    #FF0000;
+        }
+
+}
+.Input{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 27px;
+    width: 100%;
+  
+    p{
+        color: #FF0000;
+       margin-left: 32px;
+    }
+
+}
+#textError{
+    visibility: hidden;
 }

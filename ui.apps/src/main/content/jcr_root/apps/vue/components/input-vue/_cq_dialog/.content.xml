@@ -16,11 +16,16 @@
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                         fieldLabel="Field"
                         name="./field"/>
+<<<<<<< HEAD
                     <Class
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                         fieldLabel="Class"
                         name="./class"/>
+=======
+                 
+
+>>>>>>> a56d41e72a6e0175c67148fba7108063582e2c4a
                     <select
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/select"
@@ -41,6 +46,12 @@
                                 value="Phone"/>
                         </items>
                     </select>
+                             <textError
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldLabel="Error"
+                        name="./textErrorMessase"/>
+                        
                 </items>
             </column>
         </items>

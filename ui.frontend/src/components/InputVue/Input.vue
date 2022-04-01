@@ -1,6 +1,12 @@
 <template>
-  <div :class="Class">
+  <div :class="Class" id="inputVue">
+    <div class="Input">
+
       <label :for="field">{{field}}</label>
+      <p id="textError">{{textErrorMessase}}</p>
+
+    </div>
+
       <input type="text"
       :name="field"
       :placeholder="field"
@@ -24,6 +30,10 @@ export default {
     Class: {
       type: String,
       default: 'input-vue'
+    },
+    textErrorMessase: {
+      type: String,
+      default: ''
     }
   },
   data () {
@@ -33,7 +43,21 @@ export default {
   },
   methods: {
     setData () {
-      localStorage.setItem(`${this.field}`, this.fieldData)
+      if (this.field === 'Certificates') {
+        if (!sessionStorage.getItem('Cert1')) {
+          sessionStorage.setItem('Cert1', this.fieldData)
+        } else if (!sessionStorage.getItem('Cert2')) {
+          sessionStorage.setItem('Cert2', this.fieldData)
+        } else if (!sessionStorage.getItem('Cert3')) {
+          sessionStorage.setItem('Cert3', this.fieldData)
+        } else if (!sessionStorage.getItem('Cert4')) {
+          sessionStorage.setItem('Cert4', this.fieldData)
+        } else if (!sessionStorage.getItem('Cert5')) {
+          sessionStorage.setItem('Cert5', this.fieldData)
+        }
+      } else {
+        sessionStorage.setItem(`${this.field}`, this.fieldData)
+      }
     },
     updateDisplay () {
       if (this.type !== 'Text') {
@@ -50,6 +74,7 @@ export default {
   },
   updated () {
     this.updateDisplay()
+
     const elementCertificatesDiv = document.querySelector('[cqpath="/content/vue/vue/first-tab/jcr:content/root/responsivegrid/responsivegrid_20885/responsivegrid_26449/responsivegrid_26449_963665979/text_vue_1450046854"]')
     const elementSocialDiv = document.querySelector('[cqpath="/content/vue/vue/first-tab/jcr:content/root/responsivegrid/responsivegrid_20885/responsivegrid_26449/responsivegrid_26449_963665979/text_vue_236760537"] ')
     const elementBasicDiv = document.querySelector('[cqpath="/content/vue/vue/first-tab/jcr:content/root/responsivegrid/responsivegrid_20885/responsivegrid_26449/responsivegrid_26449_963665979/text_vue"] ')
