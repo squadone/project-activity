@@ -132,3 +132,27 @@
         }
     }
 }
+
+.inputsThirdTab{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 25.5vw;
+    color: #767676;
+    font-family: 'Nunito', sans-serif;
+    right: 10px;
+
+    input{
+        width: 100%;
+        border: 2px solid #AAAAAA;
+        outline: 0;
+        border-radius: 5px;
+        color: #767676;
+        padding-left: 3%;
+        height: 35px;
+
+        &:focus{
+            outline: 0;
+        }
+    }
+}
