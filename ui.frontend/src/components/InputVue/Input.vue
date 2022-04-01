@@ -1,5 +1,5 @@
 <template>
-  <div class="input-vue" id="inputVue">
+  <div  id="inputVue">
     <div class="Input">
 
       <label :for="field">{{field}}</label>
