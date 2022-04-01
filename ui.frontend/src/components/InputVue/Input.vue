@@ -1,9 +1,9 @@
 <template>
-  <div  id="inputVue">
+  <div id="inputVue">
     <div class="Input">
 
       <label :for="field">{{field}}</label>
-      <p id="textError">{{textErrorMessase}}</p>
+      <p :id="textError">{{textErrorMessase}}</p>
 
     </div>
 
@@ -28,6 +28,10 @@ export default {
       type: String
     },
     textErrorMessase: {
+      type: String,
+      default: ''
+    },
+    textError: {
       type: String,
       default: ''
     }

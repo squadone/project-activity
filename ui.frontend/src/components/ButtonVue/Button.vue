@@ -34,15 +34,22 @@ export default {
   },
 
   methods: {
+
     next () {
-      if (document.querySelector('#checkboxVueJs')) {
-        if (document.querySelector('#checkboxVueJs').checked) {
+      if (this.ButtonId === 'firstPage') {
+        if (sessionStorage.getItem('Full Name') && sessionStorage.getItem('Email *') && document.querySelector('#checkboxVueJs').checked) {
           this.$router.push({ name: 'Second-Tab' })
           location.reload()
         } else {
-          document.querySelector('#birthdayMessage').style.visibility = 'visible'
-          document.querySelector('#messageErro').style.visibility = 'visible'
-          document.querySelector('#textError').style.visibility = 'visible'
+          if (!sessionStorage.getItem('Full Name')) {
+            document.querySelector('#nameErro').style.visibility = 'visible'
+          }
+          if (!sessionStorage.getItem('Email *')) {
+            document.querySelector('#emailError').style.visibility = 'visible'
+          }
+          if (!document.querySelector('#checkboxVueJs').checked) {
+            document.querySelector('#messageErro').style.visibility = 'visible'
+          }
         }
       } else {
         if (this.ButtonId === 'secondPage') {
@@ -55,8 +62,8 @@ export default {
         location.reload()
       }
     }
-
   },
+
   updated () {
     const elementThirdBox = document.querySelector('[cqpath="/content/vue/vue/trird-tab/jcr:content/root/responsivegrid/responsivegrid_25683"] div')
     elementThirdBox.style.backgroundColor = '#fff'
