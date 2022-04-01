@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-03-30T13:36:24.733-03:00"
+        cq:lastModified="{Date}2022-04-01T13:58:33.370-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/vue/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -66,12 +66,12 @@
                     <title_vue_component_
                         jcr:created="{Date}2022-03-26T19:08:56.296-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T20:27:00.722-03:00"
+                        jcr:lastModified="{Date}2022-04-01T11:29:06.490-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/Title-vue-component"
                         Color="#111111"
-                        Id="titleTeamSingUp"
+                        Id="titleTeamSingUpFirst"
                         size="18"
                         text="Team Sign Up"/>
                     <responsivegrid_26449
@@ -82,68 +82,87 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
                         <cq:responsive jcr:primaryType="nt:unstructured"/>
-                        <text_vue
-                            jcr:created="{Date}2022-03-26T19:10:49.632-03:00"
+                        <responsivegrid_26449
+                            jcr:created="{Date}2022-03-26T19:12:32.597-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T20:40:19.922-03:00"
+                            jcr:lastModified="{Date}2022-03-26T19:12:32.597-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="vue/components/text-vue"
-                            Color=" #111111"
-                            Id="textBasicSecondTab"
-                            size="16"
-                            text="Basic">
+                            sling:resourceType="wcm/foundation/components/responsivegrid">
                             <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
+                                <tablet
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
-                                    width="2"/>
+                                    width="10"/>
                             </cq:responsive>
-                        </text_vue>
-                        <text_vue_236760537
-                            jcr:created="{Date}2022-03-26T19:13:00.135-03:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T20:40:17.212-03:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="vue/components/text-vue"
-                            Color="#111111"
-                            Id="textSocial"
-                            size="16"
-                            text="Social">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="1"
-                                    width="2"/>
-                            </cq:responsive>
-                        </text_vue_236760537>
-                        <text_vue_1450046854
-                            jcr:created="{Date}2022-03-26T19:12:01.465-03:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T20:40:23.581-03:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="vue/components/text-vue"
-                            Color=" #074EE8"
-                            Id="textCertificatesThirdTab"
-                            size="16"
-                            text="Certificates">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <default
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="1"
-                                    width="2"/>
-                            </cq:responsive>
-                        </text_vue_1450046854>
+                            <text_vue
+                                jcr:created="{Date}2022-03-26T19:10:49.632-03:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-01T13:46:52.788-03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="vue/components/text-vue"
+                                Color=" #111111"
+                                Id="textBasicThirdTab"
+                                size="16"
+                                text="Basic">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="1"
+                                        width="2"/>
+                                    <tablet
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="2"
+                                        width="1"/>
+                                </cq:responsive>
+                            </text_vue>
+                            <text_vue_236760537
+                                jcr:created="{Date}2022-03-26T19:13:00.135-03:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-01T13:46:34.955-03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="vue/components/text-vue"
+                                Color="#111111"
+                                Id="textSocialThridTab"
+                                size="16"
+                                text="Social">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="1"
+                                        width="3"/>
+                                </cq:responsive>
+                            </text_vue_236760537>
+                            <text_vue_1450046854
+                                jcr:created="{Date}2022-03-26T19:12:01.465-03:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-04-01T13:46:22.563-03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="vue/components/text-vue"
+                                Color="#074EE8"
+                                Id="textCertificatesThirdTab"
+                                size="16"
+                                text="Certificates">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="1"
+                                        width="2"/>
+                                </cq:responsive>
+                            </text_vue_1450046854>
+                        </responsivegrid_26449>
                     </responsivegrid_26449>
                     <input_vue
                         jcr:created="{Date}2022-03-26T20:58:35.732-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T16:22:56.059-03:00"
+                        jcr:lastModified="{Date}2022-04-01T13:58:21.681-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/input-vue"
+                        class="inputsThirdTab"
                         field="Certificates"
                         type="Text">
                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -173,10 +192,11 @@
                     <input_vue_192953014
                         jcr:created="{Date}2022-03-26T21:01:02.281-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T16:23:57.903-03:00"
+                        jcr:lastModified="{Date}2022-04-01T13:58:25.735-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/input-vue"
+                        class="inputsThirdTab"
                         field="Team Name *"
                         type="Text">
                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -189,10 +209,11 @@
                     <input_vue_1088184226
                         jcr:created="{Date}2022-03-27T16:24:44.572-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T16:26:51.302-03:00"
+                        jcr:lastModified="{Date}2022-04-01T13:58:30.017-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/input-vue"
+                        class="inputsThirdTab"
                         field="Institution *"
                         type="Text">
                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -205,10 +226,11 @@
                     <input_vue_189874029
                         jcr:created="{Date}2022-03-27T16:24:48.209-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T16:27:24.359-03:00"
+                        jcr:lastModified="{Date}2022-04-01T13:58:33.367-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/input-vue"
+                        class="inputsThirdTab"
                         field="Graduation *"
                         type="Text">
                         <cq:responsive jcr:primaryType="nt:unstructured">
