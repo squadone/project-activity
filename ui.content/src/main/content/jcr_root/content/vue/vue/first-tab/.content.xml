@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-03-29T17:22:20.335-03:00"
+        cq:lastModified="{Date}2022-04-01T01:37:53.985-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/vue/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -70,7 +70,7 @@
                     <title_vue_component
                         jcr:created="{Date}2022-03-26T19:08:56.296-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T19:39:16.957-03:00"
+                        jcr:lastModified="{Date}2022-04-01T00:43:14.592-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/Title-vue-component"
@@ -118,7 +118,7 @@
                             <text_vue
                                 jcr:created="{Date}2022-03-26T19:10:49.632-03:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2022-03-27T20:02:59.003-03:00"
+                                jcr:lastModified="{Date}2022-04-01T00:43:05.590-03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="vue/components/text-vue"
@@ -140,7 +140,7 @@
                             <text_vue_236760537
                                 jcr:created="{Date}2022-03-26T19:13:00.135-03:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2022-03-27T20:02:47.539-03:00"
+                                jcr:lastModified="{Date}2022-04-01T00:43:08.583-03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="vue/components/text-vue"
@@ -158,7 +158,7 @@
                             <text_vue_1450046854
                                 jcr:created="{Date}2022-03-26T19:12:01.465-03:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2022-03-27T20:02:55.926-03:00"
+                                jcr:lastModified="{Date}2022-04-01T00:43:11.581-03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="vue/components/text-vue"
@@ -216,10 +216,11 @@
                         <input_vue_790449834
                             jcr:created="{Date}2022-03-26T19:17:59.863-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-26T20:08:53.330-03:00"
+                            jcr:lastModified="{Date}2022-04-01T01:29:59.691-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/input-vue"
+                            class="inputEmail"
                             field="Email"
                             type="Mail">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -232,10 +233,11 @@
                         <input_vue_1864514406
                             jcr:created="{Date}2022-03-26T19:18:12.575-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-26T20:09:05.665-03:00"
+                            jcr:lastModified="{Date}2022-04-01T01:30:02.473-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/input-vue"
+                            class="inputPhone"
                             field="Phone"
                             type="Phone">
                             <cq:responsive jcr:primaryType="nt:unstructured">
@@ -249,13 +251,14 @@
                     <text_vue
                         jcr:created="{Date}2022-03-26T19:20:45.783-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-26T19:21:35.692-03:00"
+                        jcr:lastModified="{Date}2022-04-01T01:37:53.979-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/text-vue"
                         Color=" #767676"
+                        Id="textBirthdayFirstTab"
                         size="18"
-                        text="Birthday*">
+                        text="Birthday *">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
@@ -279,10 +282,11 @@
                         <select_vue
                             jcr:created="{Date}2022-03-26T19:23:55.014-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-26T19:24:51.181-03:00"
+                            jcr:lastModified="{Date}2022-04-01T00:47:36.176-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/select-vue"
+                            class="selectDay"
                             label="Day">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -294,10 +298,11 @@
                         <select_vue_121587033
                             jcr:created="{Date}2022-03-26T19:24:02.620-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-26T19:24:58.576-03:00"
+                            jcr:lastModified="{Date}2022-04-01T00:51:11.114-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/select-vue"
+                            class="selecMonth"
                             label="Month">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -309,10 +314,11 @@
                         <select_vue_147384606
                             jcr:created="{Date}2022-03-26T19:24:05.238-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-26T19:25:15.526-03:00"
+                            jcr:lastModified="{Date}2022-04-01T00:52:08.417-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/select-vue"
+                            class="selecYear"
                             label="Year">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -386,11 +392,12 @@
                             <checkbox_vue
                                 jcr:created="{Date}2022-03-26T19:35:25.351-03:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2022-03-26T19:35:51.038-03:00"
+                                jcr:lastModified="{Date}2022-04-01T01:19:22.751-03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="vue/components/checkbox-vue"
-                                field="I accept the terms and privacy">
+                                field="I accept the terms and privacy"
+                                Id="ckeckbox">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default
                                         jcr:primaryType="nt:unstructured"
@@ -405,12 +412,13 @@
                             <custom_vue
                                 jcr:created="{Date}2022-03-26T19:37:18.423-03:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2022-03-27T19:31:56.625-03:00"
+                                jcr:lastModified="{Date}2022-04-01T00:59:44.129-03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="vue/components/custom-vue"
                                 Class="fa-solid fa-angle-right"
-                                field="Next">
+                                field="Next"
+                                Id="buttonNextFirstTab">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default
                                         jcr:primaryType="nt:unstructured"

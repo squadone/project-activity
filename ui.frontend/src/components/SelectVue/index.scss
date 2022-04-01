@@ -1,13 +1,67 @@
 .select-vue{
     display: flex;
     flex-direction: column;
-    font-family: 'Nunito', sans-serif;;
+    font-family: 'Nunito', sans-serif;
 
     label{
         font-size: 16px;
         color: #AAAAAA;
     }
 
+    select{
+        color: #AAAAAA;
+        border: solid 2px #AAAAAA;
+        border-radius: 4px;
+        height: 35px;
+    }
+}
+
+.selectDay{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    width: 6vw;
+
+    label{
+        font-size: 16px;
+        color: #AAAAAA;
+    }
+    select{
+        color: #AAAAAA;
+        border: solid 2px #AAAAAA;
+        border-radius: 4px;
+        height: 35px;
+    }
+}
+
+.selecMonth{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    width: 6vw;
+
+    label{
+        font-size: 16px;
+        color: #AAAAAA;
+    }
+    select{
+        color: #AAAAAA;
+        border: solid 2px #AAAAAA;
+        border-radius: 4px;
+        height: 35px;
+    }
+}
+
+.selecYear{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    width: 6vw;
+
+    label{
+        font-size: 16px;
+        color: #AAAAAA;
+    }
     select{
         color: #AAAAAA;
         border: solid 2px #AAAAAA;

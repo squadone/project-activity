@@ -1,5 +1,5 @@
 <template>
-  <div class="select-vue">
+  <div :class="Class">
       <label :for="label">{{label}}</label>
 
         <select :name="label" :id="`${label}-id`" @mouseleave="calcAge" >
@@ -15,6 +15,10 @@ export default {
     label: {
       type: String,
       default: 'Time Period'
+    },
+    Class: {
+      type: String,
+      default: 'select-vue'
     }
   },
   methods: {

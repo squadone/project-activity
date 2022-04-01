@@ -1,10 +1,9 @@
 .input-vue{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 98%;
     color: #767676;
     font-family: 'Nunito', sans-serif;
-    padding-top: 2%;
 
     input{
         width: 100%;
@@ -12,8 +11,73 @@
         outline: 0;
         border-radius: 5px;
         color: #767676;
+        padding-left: 3%;
+        height: 35px;
 
+        &:focus{
+            outline: 0;
+        }
+    }
+}
+
+.inputNickname{
+    margin: 5% 0 5% 0;
+    width: 100%;
+    color: #767676;
+    font-family: 'Nunito', sans-serif;
+    
+    input{
+        width: 100%;
+        border: 2px solid #AAAAAA;
+        outline: 0;
+        border-radius: 5px;
+        color: #767676;
         padding-left: 1%;
+        height: 35px;
+
+        &:focus{
+            outline: 0;
+        }
+    }
+
+}
+
+.inputEmail{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #767676;
+    font-family: 'Nunito', sans-serif;
+
+    input{
+        width: 100%;
+        border: 2px solid #AAAAAA;
+        outline: 0;
+        border-radius: 5px;
+        color: #767676;
+        padding-left: 5%;
+        height: 35px;
+
+        &:focus{
+            outline: 0;
+        }
+    }
+}
+
+.inputPhone{
+    position: relative;
+    right: 15%;
+    width: 112%;
+    color: #767676;
+    font-family: 'Nunito', sans-serif;
+
+    input{
+        width: 100%;
+        border: 2px solid #AAAAAA;
+        outline: 0;
+        border-radius: 5px;
+        color: #767676;
+        padding-left: 5%;
         height: 35px;
 
         &:focus{

@@ -22,13 +22,13 @@ export default {
     const elementAgeBox = document.querySelector('[cqpath="/content/vue/vue/first-tab/jcr:content/root/responsivegrid/responsivegrid_20885/responsivegrid/responsivegrid_15929"]')
 
     element.style.backgroundColor = '#fff'
-    element.style.height = '80vh'
+    element.style.height = '70vh'
     element.style.borderRadius = '20px'
     element.style.display = 'flex'
     element.style.flexDirection = 'column'
     element.style.justifyContent = 'space-between'
     element.style.margin = '2% auto'
-    element.style.width = '70%'
+    element.style.width = '40%'
 
     elementTitle.style.display = 'flex'
     elementTitle.style.justifyContent = 'center'

@@ -35,7 +35,7 @@ export default {
     elementThirdBox.style.flexDirection = 'column'
     elementThirdBox.style.borderRadius = '20px'
     elementThirdBox.style.margin = '2% auto'
-    elementThirdBox.style.width = '70%'
+    elementThirdBox.style.width = '50%'
     elementThirdBox.style.justifyContent = 'space-between'
   }
 }

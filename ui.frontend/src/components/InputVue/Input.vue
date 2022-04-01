@@ -1,5 +1,5 @@
 <template>
-  <div class="input-vue">
+  <div :class="Class">
       <label :for="field">{{field}}</label>
       <input type="text"
       :name="field"
@@ -20,6 +20,10 @@ export default {
     },
     type: {
       type: String
+    },
+    Class: {
+      type: String,
+      default: 'input-vue'
     }
   },
   data () {
@@ -39,7 +43,7 @@ export default {
           element.placeholder = 'your@mail.com'
         } else if (this.type === 'Phone') {
           element.type = 'tel'
-          element.placeholder = '(83)00000-000'
+          element.placeholder = '(83) 00000 - 0000'
         }
       }
     }
@@ -58,12 +62,12 @@ export default {
     const elementSecondBoxInput = document.querySelector('[ cqpath="/content/vue/vue/second-tab/jcr:content/root/responsivegrid/responsivegrid_16067/responsivegrid_25683"] ')
 
     elementSecondBox.style.backgroundColor = '#fff'
-    elementSecondBox.style.height = '76vh'
+    elementSecondBox.style.height = '67vh'
     elementSecondBox.style.display = 'flex'
     elementSecondBox.style.flexDirection = 'column'
     elementSecondBox.style.borderRadius = '20px'
     elementSecondBox.style.margin = '2% auto'
-    elementSecondBox.style.width = '70%'
+    elementSecondBox.style.width = '40%'
     elementSecondBox.style.paddingTop = '30px'
     elementSecondBoxTitle.style.margin = '30px auto'
     elementSecondBoxInput.style.marginBottom = '32vh'
