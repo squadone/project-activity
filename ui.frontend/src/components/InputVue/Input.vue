@@ -39,7 +39,21 @@ export default {
   },
   methods: {
     setData () {
-      localStorage.setItem(`${this.field}`, this.fieldData)
+      if (this.field === 'Certificates') {
+        if (!sessionStorage.getItem('Cert1')) {
+          sessionStorage.setItem('Cert1', this.fieldData)
+        } else if (!sessionStorage.getItem('Cert2')) {
+          sessionStorage.setItem('Cert2', this.fieldData)
+        } else if (!sessionStorage.getItem('Cert3')) {
+          sessionStorage.setItem('Cert3', this.fieldData)
+        } else if (!sessionStorage.getItem('Cert4')) {
+          sessionStorage.setItem('Cert4', this.fieldData)
+        } else if (!sessionStorage.getItem('Cert5')) {
+          sessionStorage.setItem('Cert5', this.fieldData)
+        }
+      } else {
+        sessionStorage.setItem(`${this.field}`, this.fieldData)
+      }
     },
     updateDisplay () {
       if (this.type !== 'Text') {

@@ -28,7 +28,11 @@
                             <Year
                                 jcr:primaryType="nt:unstructured"
                                 text="Year"
-                                value="Year"/>
+                                value="Year"/>    
+                            <Certificate
+                                jcr:primaryType="nt:unstructured"
+                                text="Certificate"
+                                value="Certificate"/>
                         </items>
                     </select>
                 </items>
