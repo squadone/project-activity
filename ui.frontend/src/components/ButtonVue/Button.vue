@@ -52,14 +52,18 @@ export default {
           }
         }
       } else {
-        if (this.ButtonId === 'secondPage') {
+        if (this.ButtonId === 'secondPage' && sessionStorage.getItem('Github *')) {
           this.$router.push({ name: 'Third-Tab' })
+          location.reload()
+        } else if (!sessionStorage.getItem('Github *')) {
+          document.querySelector('#gitError').style.visibility = 'visible'
         } else if (this.ButtonId === 'ThirdTab') {
           this.$router.push({ name: 'Success-Tab' })
+          location.reload()
         } else if (this.ButtonId === 'returnPage') {
           this.$router.push({ name: 'First-Tab' })
+          location.reload()
         }
-        location.reload()
       }
     }
   },
