@@ -87,6 +87,7 @@ export default {
       }
       if (this.ButtonId === 'returnPage') {
         this.$router.push({ name: 'First-Tab' })
+        sessionStorage.clear()
         location.reload()
       }
     }
