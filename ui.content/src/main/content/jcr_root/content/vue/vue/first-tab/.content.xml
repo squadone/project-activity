@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-03-29T17:22:20.335-03:00"
+        cq:lastModified="{Date}2022-03-31T16:54:55.717-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/vue/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -178,10 +178,12 @@
                     <input_vue
                         jcr:created="{Date}2022-03-26T19:16:27.215-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-26T19:16:27.215-03:00"
+                        jcr:lastModified="{Date}2022-03-31T16:26:51.205-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/input-vue">
+                        sling:resourceType="vue/components/input-vue"
+                        textErrorMessase="Please enter your Name"
+                        type="Text">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
@@ -216,11 +218,12 @@
                         <input_vue_790449834
                             jcr:created="{Date}2022-03-26T19:17:59.863-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-26T20:08:53.330-03:00"
+                            jcr:lastModified="{Date}2022-03-31T16:27:14.259-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/input-vue"
-                            field="Email"
+                            field="Email *"
+                            textErrorMessase="Please enter your Email"
                             type="Mail">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -246,23 +249,50 @@
                             </cq:responsive>
                         </input_vue_1864514406>
                     </responsivegrid_1460043204>
-                    <text_vue
-                        jcr:created="{Date}2022-03-26T19:20:45.783-03:00"
+                    <responsivegrid_1523556184
+                        jcr:created="{Date}2022-03-31T16:54:35.571-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-26T19:21:35.692-03:00"
+                        jcr:lastModified="{Date}2022-03-31T16:54:35.571-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #767676"
-                        size="18"
-                        text="Birthday*">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="1"
-                                width="5"/>
-                        </cq:responsive>
-                    </text_vue>
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <text_vue
+                            jcr:created="{Date}2022-03-26T19:20:45.783-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-03-26T19:21:35.692-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #767676"
+                            size="18"
+                            text="Birthday*">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="2"/>
+                            </cq:responsive>
+                        </text_vue>
+                        <text_vue_521576732
+                            jcr:created="{Date}2022-03-31T16:50:33.223-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-03-31T16:51:34.214-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color="#FF0000"
+                            Id="birthdayMessage"
+                            size="14"
+                            text="Please enter your Age">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="7"/>
+                            </cq:responsive>
+                        </text_vue_521576732>
+                    </responsivegrid_1523556184>
                     <responsivegrid
                         jcr:created="{Date}2022-03-26T19:26:01.717-03:00"
                         jcr:createdBy="admin"
@@ -382,20 +412,25 @@
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
                                     width="8"/>
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="8"/>
                             </cq:responsive>
                             <checkbox_vue
                                 jcr:created="{Date}2022-03-26T19:35:25.351-03:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2022-03-26T19:35:51.038-03:00"
+                                jcr:lastModified="{Date}2022-03-31T16:47:15.586-03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="vue/components/checkbox-vue"
-                                field="I accept the terms and privacy">
+                                field="I accept the terms and privacy"
+                                textErrorMessase="Please confirm the terms">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default
                                         jcr:primaryType="nt:unstructured"
                                         offset="0"
-                                        width="3"/>
+                                        width="8"/>
                                     <tablet
                                         jcr:primaryType="nt:unstructured"
                                         offset="0"
@@ -405,16 +440,18 @@
                             <custom_vue
                                 jcr:created="{Date}2022-03-26T19:37:18.423-03:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2022-03-27T19:31:56.625-03:00"
+                                jcr:lastModified="{Date}2022-03-31T12:11:44.522-03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="vue/components/custom-vue"
+                                ButtonId="firstPage"
                                 Class="fa-solid fa-angle-right"
-                                field="Next">
+                                field="Next"
+                                Id="ButtonFirstTab">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default
                                         jcr:primaryType="nt:unstructured"
-                                        offset="4"
+                                        offset="7"
                                         width="1"/>
                                     <tablet
                                         jcr:primaryType="nt:unstructured"
@@ -424,6 +461,23 @@
                             </custom_vue>
                         </responsivegrid>
                     </responsivegrid>
+                    <text_vue
+                        jcr:created="{Date}2022-03-26T19:20:45.783-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-03-26T19:21:35.692-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="vue/components/text-vue"
+                        Color=" #767676"
+                        size="18"
+                        text="Birthday*">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="5"/>
+                        </cq:responsive>
+                    </text_vue>
                 </responsivegrid_20885>
             </responsivegrid>
             <text_vue

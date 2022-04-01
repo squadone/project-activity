@@ -1,7 +1,8 @@
 <template>
     <div :id="Id" class="button-vue">
         <i :class="ClassLeft"></i>
-        <button >{{field}}</button>
+
+        <button :id="ButtonId" type="button" @click="next">{{field}}</button>
         <i :class="Class"></i>
     </div>
 </template>
@@ -25,7 +26,36 @@ export default {
     ClassLeft: {
       type: String,
       default: ''
+    },
+    ButtonId: {
+      type: String,
+      default: ''
     }
+  },
+
+  methods: {
+    next () {
+      if (document.querySelector('#checkboxVueJs')) {
+        if (document.querySelector('#checkboxVueJs').checked) {
+          this.$router.push({ name: 'Second-Tab' })
+          location.reload()
+        } else {
+          document.querySelector('#birthdayMessage').style.visibility = 'visible'
+          document.querySelector('#messageErro').style.visibility = 'visible'
+          document.querySelector('#textError').style.visibility = 'visible'
+        }
+      } else {
+        if (this.ButtonId === 'secondPage') {
+          this.$router.push({ name: 'Third-Tab' })
+        } else if (this.ButtonId === 'ThirdTab') {
+          this.$router.push({ name: 'Success-Tab' })
+        } else if (this.ButtonId === 'returnPage') {
+          this.$router.push({ name: 'First-Tab' })
+        }
+        location.reload()
+      }
+    }
+
   },
   updated () {
     const elementThirdBox = document.querySelector('[cqpath="/content/vue/vue/trird-tab/jcr:content/root/responsivegrid/responsivegrid_25683"] div')
