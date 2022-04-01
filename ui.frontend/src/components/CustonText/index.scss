@@ -12,6 +12,9 @@
     margin: 0;
 }
 
+
+// First Tab 
+
 #textBasic{
     position: relative;
     font-family: 'Nunito', sans-serif;
@@ -21,17 +24,6 @@
     // test
     width: 9vw;
     left: 15%;
-}
-
-#textBasicSecondTab{
-    position: relative;
-    font-family: 'Nunito', sans-serif;
-    border-bottom: solid 1px  #AAAAAA;
-    text-align: center;
-    padding-bottom: 1px;
-    // test
-    width: 9vw;
-    left: 17%;
 }
 
 #textSocial{
@@ -45,18 +37,6 @@
     right: 28%;
 }
 
-#textSocialSeconTab{
-    position: relative;
-    font-family: 'Nunito', sans-serif;
-    border-bottom: solid 2px  #074EE8;
-    text-align: center;
-    // padding-bottom: 2px;
-    // test
-    width: 9vw;
-    left: 17%;
-
-}
-
 #textCertificates{
     position: relative;
     font-family: 'Nunito', sans-serif;
@@ -68,16 +48,42 @@
     right: 80%;
 }
 
+// Second Tab
+
+#textBasicSecondTab{
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    border-bottom: solid 1px  #AAAAAA;
+    text-align: center;
+    padding-bottom: 1px;
+    width: 9vw;
+    left: 17%;
+    top: -20px;
+}
+
+
+#textSocialSeconTab{
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    border-bottom: solid 2px  #074EE8;
+    text-align: center;
+    width: 9vw;
+    left: 47%;
+    top: -20px;
+}
+
 #textCertificatesSecondTab{
     position: relative;
     font-family: 'Nunito', sans-serif;
     border-bottom: solid 1px  #AAAAAA;
     text-align: center;
     padding-bottom: 1px;
-    // test 
     width: 9vw;
-    right: 15%;
+    left: 33%;
+    top: -20px;
 }
+
+// Third Tab
 
 #textCertificatesThirdTab{
     position: relative;

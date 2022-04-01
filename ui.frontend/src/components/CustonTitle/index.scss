@@ -13,15 +13,16 @@
     border-bottom: 2px solid #AAAAAA;
 }
 
-
-#titleTeamSingUp{
+#titleTeamSingUpFirst{
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     padding-left: 10%;
 }
 
-#titleTeamSingUpSecondTab{
+#titleTeamSingUpSecond{
     font-family: 'Inter', sans-serif;
+    position: relative;
     font-weight: 600;
     padding-left: 10%;
+    bottom: 21%;
 }

@@ -85,3 +85,50 @@
         }
     }
 }
+
+.inputLinkedinSecondTab{
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    color: #767676;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 5%;
+    margin-top: -35px;
+
+    input{
+        width: 100%;
+        border: 2px solid #AAAAAA;
+        outline: 0;
+        border-radius: 5px;
+        color: #767676;
+        padding-left: 3%;
+        height: 35px;
+
+        &:focus{
+            outline: 0;
+        }
+    }
+}
+
+.inputGithubSecondTab{
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    color: #767676;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 25%;
+
+    input{
+        width: 100%;
+        border: 2px solid #AAAAAA;
+        outline: 0;
+        border-radius: 5px;
+        color: #767676;
+        padding-left: 3%;
+        height: 35px;
+
+        &:focus{
+            outline: 0;
+        }
+    }
+}
