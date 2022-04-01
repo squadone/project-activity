@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-04-01T17:00:36.348-03:00"
+        cq:lastModified="{Date}2022-04-01T17:32:25.915-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/vue/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -138,12 +138,12 @@
                     <text_vue_860434156_c
                         jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-01T15:59:32.645-03:00"
+                        jcr:lastModified="{Date}2022-04-01T17:10:50.452-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/text-vue"
                         Color=" #000000"
-                        Id="textSuccesTabPaddingValue"
+                        Id="textEmailValue"
                         size="16"
                         text="mauricio_lindo_de_doer@uol.com">
                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -174,12 +174,12 @@
                     <text_vue_860434156_c_435952008
                         jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-01T15:56:35.532-03:00"
+                        jcr:lastModified="{Date}2022-04-01T17:19:01.553-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/text-vue"
                         Color=" #000000"
-                        Id="textSuccesTabPaddingValue"
+                        Id="textBirthdayValue"
                         size="16"
                         text="17/02/1874">
                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -210,12 +210,12 @@
                     <text_vue_860434156_c_815749508
                         jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-01T15:56:38.549-03:00"
+                        jcr:lastModified="{Date}2022-04-01T17:19:49.047-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/text-vue"
                         Color=" #000000"
-                        Id="textSuccesTabPaddingValue"
+                        Id="textAgeValue"
                         size="16"
                         text="13">
                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -228,7 +228,7 @@
                     <text_vue_1693665085__1823138012
                         jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-01T15:55:48.610-03:00"
+                        jcr:lastModified="{Date}2022-04-01T17:24:26.695-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/text-vue"
@@ -246,12 +246,12 @@
                     <text_vue_860434156_c_1438234724
                         jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-01T15:59:10.713-03:00"
+                        jcr:lastModified="{Date}2022-04-01T17:20:25.040-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/text-vue"
                         Color=" #000000"
-                        Id="textSuccesTabPaddingValue"
+                        Id="textGithubValue"
                         size="16"
                         text="reisrafaell">
                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -264,12 +264,12 @@
                     <text_vue_1693665085__1020692765
                         jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-01T15:47:30.729-03:00"
+                        jcr:lastModified="{Date}2022-04-01T17:24:31.157-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/text-vue"
                         Color=" #000000"
-                        Id="textCertificateSucessTab"
+                        Id="textSuccesTabPadding"
                         size="16"
                         text="Certificates:">
                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -282,12 +282,12 @@
                     <text_vue_860434156_c_389907882
                         jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-01T16:17:48.718-03:00"
+                        jcr:lastModified="{Date}2022-04-01T17:25:49.283-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/text-vue"
                         Color=" #000000"
-                        Id="textSuccesTabPaddingValue"
+                        Id="textCertificatesValueOne"
                         size="16"
                         text="https://cursos.alura.com.br/certificate/4ad81d87-33a3-483df.">
                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -390,12 +390,12 @@
                     <text_vue_860434156_c_1557605324
                         jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-01T15:59:13.567-03:00"
+                        jcr:lastModified="{Date}2022-04-01T17:30:46.093-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/text-vue"
                         Color=" #000000"
-                        Id="textSuccesTabPaddingValue"
+                        Id="textTeamNameValue"
                         size="16"
                         text="SquadOne">
                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -426,12 +426,12 @@
                     <text_vue_860434156_c_1517875456
                         jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-01T15:59:16.894-03:00"
+                        jcr:lastModified="{Date}2022-04-01T17:31:41.104-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/text-vue"
                         Color=" #000000"
-                        Id="textSuccesTabPaddingValue"
+                        Id="textInstitutionValue"
                         size="16"
                         text="Uol">
                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -462,12 +462,12 @@
                     <text_vue_860434156_c_388680065
                         jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-01T15:59:19.900-03:00"
+                        jcr:lastModified="{Date}2022-04-01T17:32:25.909-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/text-vue"
                         Color=" #000000"
-                        Id="textSuccesTabPaddingValue"
+                        Id="textGraduationValue"
                         size="16"
                         text="em análise">
                         <cq:responsive jcr:primaryType="nt:unstructured">
