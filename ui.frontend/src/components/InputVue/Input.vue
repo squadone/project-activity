@@ -1,9 +1,5 @@
 <template>
-<<<<<<< HEAD
-  <div :class="Class" id="inputVue">
-=======
   <div id="inputVue">
->>>>>>> 593a6fe62e5100a28c1afe20ae7b3bc3acfe2416
     <div class="Input">
 
       <label :for="field">{{field}}</label>
