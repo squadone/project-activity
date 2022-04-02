@@ -90,6 +90,22 @@ export default {
         sessionStorage.clear()
         location.reload()
       }
+
+      if (this.ButtonId === 'third') {
+        if (sessionStorage.getItem('Cert1') && sessionStorage.getItem('Cert2') && sessionStorage.getItem('Cert3') && sessionStorage.getItem('Cert4') && sessionStorage.getItem('Cert5')) {
+          document.querySelector('#textNotMore').style.display = 'flex'
+        } else {
+          document.querySelector('#textNotMore').style.display = 'none'
+        }
+        const containerBox = document.querySelector('[name="Certificates"]')
+
+        if (containerBox.value) {
+          document.querySelector('#moreButton').style.display = 'none'
+        } else {
+          document.querySelector('#moreButton').style.display = 'flex'
+        }
+        containerBox.value = null
+      }
     }
   },
 
