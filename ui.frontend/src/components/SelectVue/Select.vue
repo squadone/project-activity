@@ -125,6 +125,7 @@ export default {
   updated () {
     this.setOptions()
     if (this.label === 'Certificate') {
+      document.querySelector('[for="Certificate"]').style.display = 'none'
       setInterval(this.setCertif, 1000)
       setInterval(this.delCertif, 1000)
     } else {

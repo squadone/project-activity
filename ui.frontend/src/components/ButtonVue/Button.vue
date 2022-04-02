@@ -34,29 +34,81 @@ export default {
   },
 
   methods: {
+
     next () {
-      if (document.querySelector('#checkboxVueJs')) {
-        if (document.querySelector('#checkboxVueJs').checked) {
+      if (this.ButtonId === 'firstPage') {
+        if (sessionStorage.getItem('Full Name') && sessionStorage.getItem('Email *') && document.querySelector('#checkboxVueJs').checked) {
           this.$router.push({ name: 'Second-Tab' })
           location.reload()
         } else {
-          document.querySelector('#birthdayMessage').style.visibility = 'visible'
-          document.querySelector('#messageErro').style.visibility = 'visible'
-          document.querySelector('#textError').style.visibility = 'visible'
+          if (!sessionStorage.getItem('Full Name')) {
+            document.querySelector('#nameErro').style.visibility = 'visible'
+          } else {
+            document.querySelector('#nameErro').style.visibility = 'hidden'
+          }
+          if (!sessionStorage.getItem('Email *')) {
+            document.querySelector('#emailError').style.visibility = 'visible'
+          } else {
+            document.querySelector('#emailError').style.visibility = 'hidden'
+          }
+          if (!document.querySelector('#checkboxVueJs').checked) {
+            document.querySelector('#messageErro').style.visibility = 'visible'
+          } else {
+            document.querySelector('#messageErro').style.visibility = 'hidden'
+          }
         }
-      } else {
-        if (this.ButtonId === 'secondPage') {
+      } else if (this.ButtonId === 'secondPage') {
+        if (sessionStorage.getItem('Github *')) {
           this.$router.push({ name: 'Third-Tab' })
-        } else if (this.ButtonId === 'ThirdTab') {
+          location.reload()
+        } else { document.querySelector('#gitError').style.visibility = 'visible' }
+      }
+      if (this.ButtonId === 'ThirdTab') {
+        if (sessionStorage.getItem('Team Name *') && sessionStorage.getItem('Institution *') && sessionStorage.getItem('Graduation *')) {
           this.$router.push({ name: 'Success-Tab' })
-        } else if (this.ButtonId === 'returnPage') {
-          this.$router.push({ name: 'First-Tab' })
+          location.reload()
+        } else {
+          if (!sessionStorage.getItem('Team Name *')) {
+            document.querySelector('#teamNameError').style.visibility = 'visible'
+          } else {
+            document.querySelector('#teamNameError').style.visibility = 'hidden'
+          }
+          if (!sessionStorage.getItem('Institution *')) {
+            document.querySelector('#institutinError').style.visibility = 'visible'
+          } else {
+            document.querySelector('#institutinError').style.visibility = 'hidden'
+          }
+          if (!sessionStorage.getItem('Graduation *')) {
+            document.querySelector('#graduationError').style.visibility = 'visible'
+          } else {
+            document.querySelector('#graduationError').style.visibility = 'hidden'
+          }
         }
+      }
+      if (this.ButtonId === 'returnPage') {
+        this.$router.push({ name: 'First-Tab' })
+        sessionStorage.clear()
         location.reload()
       }
-    }
 
+      if (this.ButtonId === 'third') {
+        if (sessionStorage.getItem('Cert1') && sessionStorage.getItem('Cert2') && sessionStorage.getItem('Cert3') && sessionStorage.getItem('Cert4') && sessionStorage.getItem('Cert5')) {
+          document.querySelector('#textNotMore').style.display = 'flex'
+        } else {
+          document.querySelector('#textNotMore').style.display = 'none'
+        }
+        const containerBox = document.querySelector('[name="Certificates"]')
+
+        if (containerBox.value) {
+          document.querySelector('#moreButton').style.display = 'none'
+        } else {
+          document.querySelector('#moreButton').style.display = 'flex'
+        }
+        containerBox.value = null
+      }
+    }
   },
+
   updated () {
     const elementThirdBox = document.querySelector('[cqpath="/content/vue/vue/trird-tab/jcr:content/root/responsivegrid/responsivegrid_25683"] div')
     elementThirdBox.style.backgroundColor = '#fff'
