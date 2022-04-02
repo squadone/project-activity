@@ -95,7 +95,7 @@ export default {
     const elementSecondBoxInput = document.querySelector('[ cqpath="/content/vue/vue/second-tab/jcr:content/root/responsivegrid/responsivegrid_16067/responsivegrid_25683"] ')
 
     elementSecondBox.style.backgroundColor = '#fff'
-    elementSecondBox.style.height = '67vh'
+    elementSecondBox.style.height = '72vh'
     elementSecondBox.style.display = 'flex'
     elementSecondBox.style.flexDirection = 'column'
     elementSecondBox.style.borderRadius = '20px'
