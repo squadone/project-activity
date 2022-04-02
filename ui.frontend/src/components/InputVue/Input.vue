@@ -1,5 +1,5 @@
 <template>
-  <div id="inputVue">
+  <div :id="Id">
     <div class="Input">
 
       <label :for="field">{{field}}</label>
@@ -38,6 +38,10 @@ export default {
     textError: {
       type: String,
       default: ''
+    },
+    Id: {
+      type: String,
+      default: 'inputVue'
     }
   },
   data () {

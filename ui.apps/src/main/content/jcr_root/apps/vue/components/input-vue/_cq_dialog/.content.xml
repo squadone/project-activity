@@ -16,16 +16,11 @@
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                         fieldLabel="Field"
                         name="./field"/>
-<<<<<<< HEAD
-                    <Class
+                    <Id
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Class"
-                        name="./class"/>
-=======
-                 
-
->>>>>>> a56d41e72a6e0175c67148fba7108063582e2c4a
+                        fieldLabel="Id"
+                        name="./id"/>
                     <select
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/select"

@@ -7,12 +7,13 @@
     background: #074EE8;
     border-radius: 4px;
     height: 40px;
-    width: 100px;
+    width: 5vw;
     cursor: pointer;
 
     &:hover{
         background: #022a7a;
         transition: 0.5;
+        font-size: 18px;
     }
 
     button{
@@ -27,11 +28,10 @@
         color: #ffffff;
         margin: 0 3px 0 3px;
         height: 40px;
-         width: 100px;
+        width: 60%;
 
         &:hover{
             cursor: pointer;
-            font-size: 18px;
         }
     }
 
@@ -44,7 +44,7 @@
 
 #buttonNextFirstTab{
     position: relative;
-    right: 40%;
+    right: 34%;
 }
 
 #buttonNextSecondTab{

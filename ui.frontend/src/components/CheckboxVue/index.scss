@@ -3,7 +3,9 @@
     justify-content: flex-start;
     align-items: center;
     color: #111111;
-    width: 20vw;
+    width: 31vw;
+    position: relative;
+    top: -50px;
 
     input {
         appearance: none;
@@ -69,4 +71,7 @@
     font-family: 'Nunito';
     font-style: normal;
     visibility: hidden;
+    margin: 0;
+    position: relative;
+    right: 5%;
 }
