@@ -12,80 +12,207 @@
     margin: 0;
 }
 
+// First Tab 
+
 #textBasic{
+    position: relative;
     font-family: 'Nunito', sans-serif;
     border-bottom: solid 2.5px  #074EE8;
     text-align: center;
- 
-}
-
-#textBasicSecondTab{
-    font-family: 'Nunito', sans-serif;
-    border-bottom: solid 1px  #AAAAAA;
-    text-align: center;
-  
+    padding-bottom: 1px;
+    // test
+    width: 9vw;
+    left: 15%;
 }
 
 #textSocial{
+    position: relative;
     font-family: 'Nunito', sans-serif;
     border-bottom: solid 1px  #AAAAAA;
     text-align: center;
-    // test
-    padding-bottom: 1px;
-}
-
-#textSocialSeconTab{
-    font-family: 'Nunito', sans-serif;
-    margin: 0;
-    border-bottom: solid 2.5px  #074EE8;
-    text-align: center;
-    padding-bottom: 1px;
-   
-  
+    padding-bottom: 2px;
+    width: 9vw;
+    left: 5%;
 }
 
 #textCertificates{
+    position: relative;
     font-family: 'Nunito', sans-serif;
     border-bottom: solid 1px  #AAAAAA;
     text-align: center;
-  
+    padding-bottom: 2px;
+    // test 
+    width: 9vw;
+    right: 5%;
+}
+
+// Second Tab
+
+#textBasicSecondTab{
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    border-bottom: solid 1px  #AAAAAA;
+    text-align: center;
     padding-bottom: 1px;
+    width: 9vw;
+    left: 17%;
+    top: -20px;
+}
+
+
+#textSocialSeconTab{
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    border-bottom: solid 2px  #074EE8;
+    text-align: center;
+    width: 9vw;
+    left: 47%;
+    top: -20px;
+}
+
+#textCertificatesSecondTab{
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    border-bottom: solid 1px  #AAAAAA;
+    text-align: center;
+    padding-bottom: 1px;
+    width: 9vw;
+    left: 33%;
+    top: -20px;
+}
+
+// Third Tab
+
+#textBasicThirdTab{
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    border-bottom: solid 1px  #AAAAAA;
+    text-align: center;
+    padding-bottom: 2px;
+    width: 9vw;
+    left: 10%;
+    margin: 0;
+}
+
+#textSocialThridTab{
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    border-bottom: solid 1px  #AAAAAA;
+    text-align: center;
+    padding-bottom: 2px;
+    width: 9vw;
+    left: 14%;
+    margin-right: 17px;
+    margin: 0;
 }
 
 #textCertificatesThirdTab{
+    position: relative;
     font-family: 'Nunito', sans-serif;
     margin: 0;
     border-bottom: solid 2.5px  #074EE8;
     text-align: center;
-  }
+    width: 9vw;
+    right: 17%;
+}
 
 
-#textBirthday{
-    font-family: 'Nunito', sans-serif;
+#textBirthdayFirstTab{
+    position: relative;
+    top: 17px;
 }
 
 #age-box{
+    position: relative;
+    bottom: 41px;
+    right: 10%;
+    width: 12%;
     border: #AAAAAA solid 2px;
     border-radius: 4px;
-    color: #767676;
-    height: 23px;
-    padding-top: 8px;
-    padding-left: 10px;
-    position: relative;
-    top: -39px;
-    font-family: 'Nunito', sans-serif;
-}
-#age-text{
-    position: relative;
-    top: -18px;
+    color: #AAAAAA;
+    height: 28px;
+    padding: 3px 175% 0 12px;
+    margin-bottom: 30px;
     font-family: 'Nunito', sans-serif;
 }
 
-#succesTab{
+#age-text{
+    position: relative;
+    top: -13px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#sucessTab{
     margin-left: 48px;
 }
-#succesTabTitle{
+
+#sucessTabTitle{
     margin-left: 48px;
+
+}
+
+// Sucess Tab
+
+#textSuccessfully{
+    padding-left: 8%;
+    padding-top: 3%;
+}
+
+#textSuccesTabPadding{
+    text-align: left;
+    padding: 0 0 0 20%;
+    margin-bottom: 1%;
+    width: 7vw;
+}
+
+#textFullNameValue{
+    margin-left: -6em;
+    margin-bottom: 1%;
+}
+
+#textEmailValue{
+    margin-bottom: 1%;
+    margin-left: -8em;
+}
+
+#textBirthdayValue{
+    margin-bottom: 1%;
+    margin-left: -7em;
+}
+
+#textAgeValue{
+    margin-bottom: 1%;
+    margin-left: -9em;
+}
+
+#textGithubValue{
+    margin-bottom: 1%;
+    margin-left: -7.5em;
+}
+
+#textCertificatesValueOne{
+    margin-left: -5.5em;
+}
+
+#textCertificatesValue{
+    margin: 0;
+    margin-bottom: 3%;
+    margin-left: -5.5em;
+}
+
+#textTeamNameValue{
+    margin-bottom: 1%;
+    margin-left: -5.5em;
+}
+
+#textInstitutionValue{
+    margin-bottom: 1%;
+    margin-left: -6em;
+}
+
+#textGraduationValue{
+    margin-bottom: 1%;
+    margin-left: -5.5em;
 }
 
 #birthdayMessage{
@@ -96,9 +223,11 @@
 #textNotMore{
     text-align: end;
     display: none;
+    margin-right: 19%;
 }
 
 #moreButton{
     text-align: end;
     display: none;
+    margin-left: 19%;
 }

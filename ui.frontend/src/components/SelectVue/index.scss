@@ -1,7 +1,8 @@
 .select-vue{
     display: flex;
     flex-direction: column;
-    font-family: 'Nunito', sans-serif;;
+    font-family: 'Nunito', sans-serif;
+    width: 6vw;
 
     label{
         font-size: 16px;
@@ -13,5 +14,26 @@
         border: solid 2px #AAAAAA;
         border-radius: 4px;
         height: 35px;
+    }
+}
+
+.selecetCertificates{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    width: 6vw;
+    border-radius: 4px;
+    position: relative;
+    right: 10px;
+   
+    select{
+        color: #ffffff;
+        font-family: 'Nunito', sans-serif;
+        border: solid 2px #074EE8;
+        background: #074EE8;;
+        border-radius: 4px;
+        height: 40px;
+        padding-left: 1em;
     }
 }

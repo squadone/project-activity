@@ -1,21 +1,160 @@
 #inputVue{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
+    width: 98%;
     color: #767676;
     font-family: 'Nunito', sans-serif;
-    padding-top: 2%;
-  
-    
+
     input{
         width: 100%;
         border: 2px solid #AAAAAA;
         outline: 0;
         border-radius: 5px;
         color: #767676;
+        padding-left: 3%;
+        height: 35px;
 
-        padding-left: 1%;
+        &:focus{
+            outline: 0;
+        }
+    }
+}
+
+.Input{
+    label{
+        width: 8vw;
+    }
+}
+
+#inputNickname{
+    margin: 2% 0 2% 0;
+    width: 100%;
+    color: #767676;
+    font-family: 'Nunito', sans-serif;
+    
+    input{
+        width: 98%;
+        border: 2px solid #AAAAAA;
+        outline: 0;
+        border-radius: 5px;
+        padding-left: 3%;
+        color: #767676;
+        height: 35px;
+
+        &:focus{
+            outline: 0;
+        }
+    }
+
+}
+
+#inputEmail{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #767676;
+    font-family: 'Nunito', sans-serif;
+
+    input{
+        width: 100%;
+        border: 2px solid #AAAAAA;
+        outline: 0;
+        border-radius: 5px;
+        color: #767676;
+        padding-left: 5%;
+        height: 35px;
+
+        &:focus{
+            outline: 0;
+        }
+    }
+}
+
+#inputPhone{
+    position: relative;
+    left: 15%;
+    width: 83%;
+    color: #767676;
+    font-family: 'Nunito', sans-serif;
+
+    input{
+        width: 100%;
+        border: 2px solid #AAAAAA;
+        outline: 0;
+        border-radius: 5px;
+        color: #767676;
+        padding-left: 5%;
+        height: 35px;
+
+        &:focus{
+            outline: 0;
+        }
+    }
+}
+
+#inputLinkedinSecondTab{
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    color: #767676;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 5%;
+    margin-top: -35px;
+
+    input{
+        width: 100%;
+        border: 2px solid #AAAAAA;
+        outline: 0;
+        border-radius: 5px;
+        color: #767676;
+        padding-left: 3%;
+        height: 35px;
+
+        &:focus{
+            outline: 0;
+        }
+    }
+}
+
+#inputGithubSecondTab{
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    color: #767676;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 25%;
+
+    input{
+        width: 100%;
+        border: 2px solid #AAAAAA;
+        outline: 0;
+        border-radius: 5px;
+        color: #767676;
+        padding-left: 3%;
+        height: 35px;
+
+        &:focus{
+            outline: 0;
+        }
+    }
+}
+
+#inputsThirdTab{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 25.5vw;
+    color: #767676;
+    font-family: 'Nunito', sans-serif;
+    right: 10px;
+
+    input{
+        width: 100%;
+        border: 2px solid #AAAAAA;
+        outline: 0;
+        border-radius: 5px;
+        color: #767676;
+        padding-left: 3%;
         height: 35px;
 
         &:focus{
@@ -25,7 +164,7 @@
 }
 
 #textLabel{
-         display: flex;
+        display: flex;
         justify-content: end;
         align-items: center;
         height: 27px;
@@ -36,6 +175,7 @@
         }
 
 }
+
 .Input{
     display: flex;
     justify-content: flex-start;
@@ -55,14 +195,23 @@
 
 #nameErro{
     visibility: hidden;
+    position: relative;
+    margin: 0;
+    width: 30vw;
 }
 
 #emailError{
     visibility: hidden;
+    margin: 0;
+    width: 20vw;
+    font-size: 14px;
 }
 
 #gitError{
     visibility: hidden;
+    margin: 0;
+    position: relative;
+    right: 15%;
 }
 
 #teamNameError{

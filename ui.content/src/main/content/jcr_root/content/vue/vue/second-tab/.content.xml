@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-04-01T16:52:27.562-03:00"
+        cq:lastModified="{Date}2022-04-02T15:19:50.714-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/vue/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -57,12 +57,12 @@
                     <title_vue_component_
                         jcr:created="{Date}2022-03-26T19:08:56.296-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T20:02:01.500-03:00"
+                        jcr:lastModified="{Date}2022-04-02T15:13:55.474-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/Title-vue-component"
                         Color="#111"
-                        Id="titleTeamSingUp"
+                        Id="titleTeamSingUpSecond"
                         size="18"
                         text="Team Sign Up">
                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -91,7 +91,7 @@
                             <text_vue
                                 jcr:created="{Date}2022-03-26T19:10:49.632-03:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2022-03-27T19:56:21.708-03:00"
+                                jcr:lastModified="{Date}2022-04-01T10:45:51.437-03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="vue/components/text-vue"
@@ -127,12 +127,12 @@
                             <text_vue_1450046854
                                 jcr:created="{Date}2022-03-26T19:12:01.465-03:00"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2022-03-27T19:58:20.461-03:00"
+                                jcr:lastModified="{Date}2022-04-01T10:49:50.775-03:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="vue/components/text-vue"
                                 Color=" #111111"
-                                Id="textCertificates"
+                                Id="textCertificatesSecondTab"
                                 size="16"
                                 text="Certificates">
                                 <cq:responsive jcr:primaryType="nt:unstructured">
@@ -143,31 +143,6 @@
                                 </cq:responsive>
                             </text_vue_1450046854>
                         </responsivegrid_26449>
-                        <responsivegrid_26449_702269614
-                            jcr:created="{Date}2022-03-26T19:12:32.597-03:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-26T19:12:32.597-03:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/foundation/components/responsivegrid">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <tablet
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="0"
-                                    width="10"/>
-                            </cq:responsive>
-                            <responsivegrid_26449 jcr:primaryType="nt:unstructured">
-                                <text_vue_236760537
-                                    jcr:lastModified="{Date}2022-03-27T19:26:32.909-03:00"
-                                    jcr:lastModifiedBy="admin"
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="vue/components/text-vue"
-                                    Color="#111111"
-                                    Id="textSocial"
-                                    size="18"
-                                    text="Basic"/>
-                            </responsivegrid_26449>
-                        </responsivegrid_26449_702269614>
                     </responsivegrid_26449>
                     <responsivegrid_25683
                         jcr:created="{Date}2022-03-26T20:57:48.310-03:00"
@@ -185,11 +160,13 @@
                         <input_vue
                             jcr:created="{Date}2022-03-26T20:58:35.732-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-26T21:00:41.029-03:00"
+                            jcr:lastModified="{Date}2022-04-02T15:19:50.711-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/input-vue"
+                            class="inputLinkedinSecondTab"
                             field="LinkedIn"
+                            id="inputLinkedinSecondTab"
                             type="Text">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -205,6 +182,7 @@
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/input-vue"
+                            class="inputGithubSecondTab"
                             field="Github *"
                             textError="gitError"
                             textErrorMessase="Please enter your GitHub Link"
@@ -226,7 +204,8 @@
                         sling:resourceType="vue/components/custom-vue"
                         ButtonId="secondPage"
                         Class="fa-solid fa-angle-right"
-                        field="Next  ">
+                        field="Next  "
+                        Id="buttonNextSecondTab">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"

@@ -31,6 +31,8 @@ export default {
       elementSUccessBox.style.borderRadius = '20px'
       elementSUccessBox.style.margin = '2% auto'
       elementSUccessBox.style.MaxWidth = '750px'
+      elementSUccessBox.style.height = '70vh'
+      elementSUccessBox.style.width = '70%'
     }
   }
 }
