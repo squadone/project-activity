@@ -91,6 +91,7 @@
     padding-bottom: 2px;
     width: 9vw;
     left: 10%;
+    margin: 0;
 }
 
 #textSocialThridTab{
@@ -102,6 +103,7 @@
     width: 9vw;
     left: 14%;
     margin-right: 17px;
+    margin: 0;
 }
 
 #textCertificatesThirdTab{
@@ -112,7 +114,6 @@
     text-align: center;
     width: 9vw;
     right: 17%;
-    margin-top: 17px;
 }
 
 
@@ -222,9 +223,11 @@
 #textNotMore{
     text-align: end;
     display: none;
+    margin-right: 19%;
 }
 
 #moreButton{
     text-align: end;
     display: none;
+    margin-left: 19%;
 }

@@ -57,3 +57,11 @@
     margin-bottom: 31px;
 }
 
+#buttonMore{
+    margin-left: 5.5em;
+    &:hover{
+        margin-left: 4.9em;
+        margin-right: 3em;
+        font-size: 18px;
+    }
+}

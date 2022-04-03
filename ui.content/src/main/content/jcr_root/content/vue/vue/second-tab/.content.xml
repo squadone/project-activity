@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-04-01T16:52:27.562-03:00"
+        cq:lastModified="{Date}2022-04-02T15:19:50.714-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/vue/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -57,7 +57,7 @@
                     <title_vue_component_
                         jcr:created="{Date}2022-03-26T19:08:56.296-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-01T10:55:12.614-03:00"
+                        jcr:lastModified="{Date}2022-04-02T15:13:55.474-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/Title-vue-component"
@@ -143,31 +143,6 @@
                                 </cq:responsive>
                             </text_vue_1450046854>
                         </responsivegrid_26449>
-                        <responsivegrid_26449_702269614
-                            jcr:created="{Date}2022-03-26T19:12:32.597-03:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-26T19:12:32.597-03:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/foundation/components/responsivegrid">
-                            <cq:responsive jcr:primaryType="nt:unstructured">
-                                <tablet
-                                    jcr:primaryType="nt:unstructured"
-                                    offset="0"
-                                    width="10"/>
-                            </cq:responsive>
-                            <responsivegrid_26449 jcr:primaryType="nt:unstructured">
-                                <text_vue_236760537
-                                    jcr:lastModified="{Date}2022-03-27T19:26:32.909-03:00"
-                                    jcr:lastModifiedBy="admin"
-                                    jcr:primaryType="nt:unstructured"
-                                    sling:resourceType="vue/components/text-vue"
-                                    Color="#111111"
-                                    Id="textSocial"
-                                    size="18"
-                                    text="Basic"/>
-                            </responsivegrid_26449>
-                        </responsivegrid_26449_702269614>
                     </responsivegrid_26449>
                     <responsivegrid_25683
                         jcr:created="{Date}2022-03-26T20:57:48.310-03:00"
@@ -185,12 +160,13 @@
                         <input_vue
                             jcr:created="{Date}2022-03-26T20:58:35.732-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-04-01T11:05:35.550-03:00"
+                            jcr:lastModified="{Date}2022-04-02T15:19:50.711-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/input-vue"
                             class="inputLinkedinSecondTab"
                             field="LinkedIn"
+                            id="inputLinkedinSecondTab"
                             type="Text">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default

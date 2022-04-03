@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-04-02T15:03:58.411-03:00"
+        cq:lastModified="{Date}2022-04-02T21:07:41.414-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/vue/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -317,11 +317,11 @@
                         <select_vue
                             jcr:created="{Date}2022-03-26T19:23:55.014-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-04-02T12:53:29.479-03:00"
+                            jcr:lastModified="{Date}2022-04-02T21:07:34.506-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/select-vue"
-                            class="selectDay"
+                            class="select-vue"
                             label="Day">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -333,11 +333,11 @@
                         <select_vue_121587033
                             jcr:created="{Date}2022-03-26T19:24:02.620-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-04-02T12:32:08.777-03:00"
+                            jcr:lastModified="{Date}2022-04-02T21:07:37.950-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/select-vue"
-                            class="selecMonth"
+                            class="select-vue"
                             label="Month">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
@@ -349,11 +349,11 @@
                         <select_vue_147384606
                             jcr:created="{Date}2022-03-26T19:24:05.238-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-04-02T13:14:32.630-03:00"
+                            jcr:lastModified="{Date}2022-04-02T21:07:41.410-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/select-vue"
-                            class="selecYear"
+                            class="select-vue"
                             label="Year">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
