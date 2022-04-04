@@ -122,6 +122,14 @@ export default {
     }
   },
   updated () {
+    this.setOptions()
+    if (this.label === 'Certificate') {
+      document.querySelector('[for="Certificate"]').style.display = 'none'
+      setInterval(this.setCertif, 1000)
+      setInterval(this.delCertif, 1000)
+    } else {
+      this.calcAge()
+    }
     const socialBox = document.querySelector('[cqpath="/content/vue/vue/first-tab/jcr:content/root/responsivegrid/responsivegrid_20885/responsivegrid_26449/responsivegrid_26449_963665979/text_vue_236760537"] ')
     const certificatesBox = document.querySelector('[cqpath="/content/vue/vue/first-tab/jcr:content/root/responsivegrid/responsivegrid_20885/responsivegrid_26449/responsivegrid_26449_963665979/text_vue_1450046854"] ')
 
@@ -130,14 +138,6 @@ export default {
 
     certificatesBox.style.width = '30%'
     certificatesBox.style.margin = '0 '
-
-    this.setOptions()
-    if (this.label === 'Certificate') {
-      setInterval(this.setCertif, 1000)
-      setInterval(this.delCertif, 1000)
-    } else {
-      this.calcAge()
-    }
   }
 }
 </script>
