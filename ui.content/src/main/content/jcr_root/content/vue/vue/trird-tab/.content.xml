@@ -2,9 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-
-        cq:lastModified="{Date}2022-03-31T17:30:26.415-03:00"
-
+        cq:lastModified="{Date}2022-04-04T16:43:46.810-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/vue/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -155,35 +153,18 @@
                                 width="6"/>
                         </cq:responsive>
                     </input_vue>
-                    <responsivegrid
-                        jcr:created="{Date}2022-03-30T15:47:01.690-03:00"
+                    <responsivegrid_960804591
+                        jcr:created="{Date}2022-04-04T16:42:45.278-03:00"
                         jcr:createdBy="admin"
-
-                        jcr:lastModified="{Date}2022-03-31T17:30:26.401-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/custom-vue"
-                        ButtonId="third"
-                        Class="fa-solid fa-angle-right"
-                        ClassLeft="fa-solid fa-plus"
-                        field="More">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="6"
-                                width="1"/>
-                        </cq:responsive>
-                    </custom_vue>
-
-                        jcr:lastModified="{Date}2022-03-30T15:47:01.690-03:00"
+                        jcr:lastModified="{Date}2022-04-04T16:42:45.278-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
                         <cq:responsive jcr:primaryType="nt:unstructured"/>
                         <select_vue
-                            jcr:created="{Date}2022-03-30T15:47:20.066-03:00"
+                            jcr:created="{Date}2022-04-04T16:42:56.781-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-30T17:12:33.522-03:00"
+                            jcr:lastModified="{Date}2022-04-04T16:43:27.063-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/select-vue"
@@ -192,28 +173,60 @@
                                 <default
                                     jcr:primaryType="nt:unstructured"
                                     offset="1"
-                                    width="2"/>
+                                    width="3"/>
                             </cq:responsive>
                         </select_vue>
-                        <custom_vue
-                            jcr:created="{Date}2022-03-27T16:23:05.171-03:00"
+                        <responsivegrid
+                            jcr:created="{Date}2022-03-30T15:47:01.690-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-27T20:27:52.439-03:00"
+                            jcr:lastModified="{Date}2022-03-31T17:30:26.401-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/custom-vue"
+                            ButtonId="third"
                             Class="fa-solid fa-angle-right"
                             ClassLeft="fa-solid fa-plus"
                             field="More">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
-                                    offset="3"
-                                    width="1"/>
+                                    offset="1"
+                                    width="2"/>
                             </cq:responsive>
-                        </custom_vue>
-                    </responsivegrid>
-
+                            <select_vue
+                                jcr:created="{Date}2022-03-30T15:47:20.066-03:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-03-30T17:12:33.522-03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="vue/components/select-vue"
+                                label="Certificate">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="1"
+                                        width="2"/>
+                                </cq:responsive>
+                            </select_vue>
+                            <custom_vue
+                                jcr:created="{Date}2022-03-27T16:23:05.171-03:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2022-03-27T20:27:52.439-03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="vue/components/custom-vue"
+                                Class="fa-solid fa-angle-right"
+                                ClassLeft="fa-solid fa-plus"
+                                field="More">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        offset="3"
+                                        width="1"/>
+                                </cq:responsive>
+                            </custom_vue>
+                        </responsivegrid>
+                    </responsivegrid_960804591>
                     <input_vue_192953014
                         jcr:created="{Date}2022-03-26T21:01:02.281-03:00"
                         jcr:createdBy="admin"
@@ -265,11 +278,10 @@
                     <custom_vue_543141912
                         jcr:created="{Date}2022-03-26T21:43:41.525-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-31T12:27:59.238-03:00"
+                        jcr:lastModified="{Date}2022-03-27T21:20:30.000-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/custom-vue"
-                        ButtonId="ThirdTab"
                         ClassLeft="fa-solid fa-check"
                         field="Finish">
                         <cq:responsive jcr:primaryType="nt:unstructured">

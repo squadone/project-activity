@@ -115,6 +115,9 @@ export default {
           age = year - yearBox.options[yearBox.selectedIndex].value
         }
       }
+      sessionStorage.setItem('bDay', dayBox.options[dayBox.selectedIndex].value)
+      sessionStorage.setItem('bMonth', monthBox.options[monthBox.selectedIndex].value)
+      sessionStorage.setItem('bYear', yearBox.options[yearBox.selectedIndex].value)
       sessionStorage.setItem('age', age)
     }
   },

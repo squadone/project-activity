@@ -36,11 +36,61 @@ export default {
       if (ageBox) {
         ageBox.innerHTML = age
       }
+    },
+    printSuccess () {
+      if (this.Id === 'fullName') {
+        this.text = sessionStorage.getItem('Full Name')
+      } else if (this.Id === 'email') {
+        this.text = sessionStorage.getItem('Email *')
+      } else if (this.Id === 'birthday') {
+        this.text = `${sessionStorage.getItem('bDay')}/${sessionStorage.getItem('bMonth')}/${sessionStorage.getItem('bYear')}`
+      } else if (this.Id === 'age') {
+        this.text = sessionStorage.getItem('age')
+      } else if (this.Id === 'github') {
+        this.text = sessionStorage.getItem('Github *')
+      } else if (this.Id === 'teamName') {
+        this.text = sessionStorage.getItem('Team Name *')
+      } else if (this.Id === 'institution') {
+        this.text = sessionStorage.getItem('Institution *')
+      } else if (this.Id === 'graduation') {
+        this.text = sessionStorage.getItem('Graduation *')
+      } else if (this.Id === 'cert1') {
+        if (sessionStorage.getItem('Cert1')) {
+          this.text = sessionStorage.getItem('Cert1')
+        } else {
+          document.querySelector('#cert1').style.display = 'none'
+        }
+      } else if (this.Id === 'cert2') {
+        if (sessionStorage.getItem('Cert2')) {
+          this.text = sessionStorage.getItem('Cert2')
+        } else {
+          document.querySelector('#cert2').style.display = 'none'
+        }
+      } else if (this.Id === 'cert3') {
+        if (sessionStorage.getItem('Cert3')) {
+          this.text = sessionStorage.getItem('Cert3')
+        } else {
+          document.querySelector('#cert3').style.display = 'none'
+        }
+      } else if (this.Id === 'cert4') {
+        if (!sessionStorage.getItem('Cert4')) {
+          this.text = sessionStorage.getItem('Cert4')
+        } else {
+          document.querySelector('#cert4').style.display = 'none'
+        }
+      } else if (this.Id === 'cert5') {
+        if (sessionStorage.getItem('Cert5')) {
+          this.text = sessionStorage.getItem('Cert5')
+        } else {
+          document.querySelector('#cert5').style.display = 'none'
+        }
+      }
     }
 
   },
 
   updated () {
+    this.printSuccess()
     setInterval(this.setAge, 1000)
     const elementThirdBox = document.querySelector('[cqpath="/content/vue/vue/trird-tab/jcr:content/root/responsivegrid/responsivegrid_25683"] div')
     const certificatesBox2Page = document.querySelector('[cqpath="/content/vue/vue/second-tab/jcr:content/root/responsivegrid/responsivegrid_16067/responsivegrid_26449/responsivegrid_26449"] div ')
