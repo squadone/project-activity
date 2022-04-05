@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-03-31T13:50:46.172-03:00"
+        cq:lastModified="{Date}2022-04-04T16:41:34.162-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/vue/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -81,389 +81,483 @@
                                 width="5"/>
                         </cq:responsive>
                     </text_vue>
-                    <text_vue_1693665085
-                        jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
+                    <responsivegrid
+                        jcr:created="{Date}2022-04-04T15:50:19.188-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-30T13:13:16.185-03:00"
+                        jcr:lastModified="{Date}2022-04-04T15:50:19.188-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        Id="succesTab"
-                        size="16"
-                        text="Full Name:">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="2"/>
-                        </cq:responsive>
-                    </text_vue_1693665085>
-                    <text_vue_860434156
-                        jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <text_vue_1693665085
+                            jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-03-30T13:13:16.185-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="succesTab"
+                            size="16"
+                            text="Full Name:">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="2"/>
+                            </cq:responsive>
+                        </text_vue_1693665085>
+                        <text_vue_860434156
+                            jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-04T15:32:47.350-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="fullName"
+                            size="16"
+                            text="Mauricio Reis / Pablo Barral / Rafael Reis">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="4"/>
+                            </cq:responsive>
+                        </text_vue_860434156>
+                    </responsivegrid>
+                    <responsivegrid_1664407785
+                        jcr:created="{Date}2022-04-04T15:50:33.957-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T21:37:43.259-03:00"
+                        jcr:lastModified="{Date}2022-04-04T15:50:33.957-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        size="16"
-                        text="Mauricio Reis / Pablo Barral / Rafael Reis">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </text_vue_860434156>
-                    <text_vue_1693665085_
-                        jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <text_vue_1693665085_
+                            jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-03-30T13:13:30.898-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="succesTab"
+                            size="16"
+                            text="Email:">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="2"/>
+                            </cq:responsive>
+                        </text_vue_1693665085_>
+                        <text_vue_860434156_c
+                            jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-04T15:32:58.269-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="email"
+                            size="16"
+                            text="mauricio_lindo_de_doer@uol.com">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="4"/>
+                            </cq:responsive>
+                        </text_vue_860434156_c>
+                    </responsivegrid_1664407785>
+                    <responsivegrid_1987533510
+                        jcr:created="{Date}2022-04-04T15:50:47.414-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-30T13:13:30.898-03:00"
+                        jcr:lastModified="{Date}2022-04-04T15:50:47.414-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        Id="succesTab"
-                        size="16"
-                        text="Email:">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="2"/>
-                        </cq:responsive>
-                    </text_vue_1693665085_>
-                    <text_vue_860434156_c
-                        jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <text_vue_1693665085_
+                            jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-03-30T13:13:35.937-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="succesTab"
+                            size="16"
+                            text="Birthday:">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="2"/>
+                            </cq:responsive>
+                        </text_vue_1693665085_>
+                        <text_vue_860434156_c
+                            jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-04T15:33:04.746-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="birthday"
+                            size="16"
+                            text="17/02/1874">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="4"/>
+                            </cq:responsive>
+                        </text_vue_860434156_c>
+                    </responsivegrid_1987533510>
+                    <responsivegrid_929906552
+                        jcr:created="{Date}2022-04-04T15:51:00.720-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T21:36:23.143-03:00"
+                        jcr:lastModified="{Date}2022-04-04T15:51:00.720-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        size="16"
-                        text="mauricio_lindo_de_doer@uol.com">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </text_vue_860434156_c>
-                    <text_vue_1693665085__379262020
-                        jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <text_vue_1693665085_
+                            jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-03-30T13:13:40.616-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="succesTab"
+                            size="16"
+                            text="Age:">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="2"/>
+                            </cq:responsive>
+                        </text_vue_1693665085_>
+                        <text_vue_860434156_c
+                            jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-04T15:33:10.328-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="age"
+                            size="16"
+                            text="13">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="4"/>
+                            </cq:responsive>
+                        </text_vue_860434156_c>
+                    </responsivegrid_929906552>
+                    <responsivegrid_566070859
+                        jcr:created="{Date}2022-04-04T15:51:19.248-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-30T13:13:35.937-03:00"
+                        jcr:lastModified="{Date}2022-04-04T15:51:19.248-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        Id="succesTab"
-                        size="16"
-                        text="Birthday:">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="2"/>
-                        </cq:responsive>
-                    </text_vue_1693665085__379262020>
-                    <text_vue_860434156_c_435952008
-                        jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <text_vue_1693665085_
+                            jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-03-30T13:13:46.028-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="succesTab"
+                            size="16"
+                            text="GitHub:">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="2"/>
+                            </cq:responsive>
+                        </text_vue_1693665085_>
+                        <text_vue_860434156_c
+                            jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-04T15:33:19.236-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="github"
+                            size="16"
+                            text="reisrafaell">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="4"/>
+                            </cq:responsive>
+                        </text_vue_860434156_c>
+                    </responsivegrid_566070859>
+                    <responsivegrid_1432059036
+                        jcr:created="{Date}2022-04-04T16:02:42.538-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T21:31:45.123-03:00"
+                        jcr:lastModified="{Date}2022-04-04T16:02:42.538-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        size="16"
-                        text="17/02/1874">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </text_vue_860434156_c_435952008>
-                    <text_vue_1693665085__1271350704
-                        jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <text_vue_1693665085_
+                            jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-03-30T13:13:56.945-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="succesTab"
+                            size="16"
+                            text="Certificates:">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="2"/>
+                            </cq:responsive>
+                        </text_vue_1693665085_>
+                        <text_vue_860434156_c
+                            jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-04T15:33:28.582-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="cert1"
+                            size="16"
+                            text="https://cursos.alura.com.br/certificate/4ad81d87-33a3-483df.">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="4"/>
+                            </cq:responsive>
+                        </text_vue_860434156_c>
+                        <text_vue_860434156_c_1973643643
+                            jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-04T15:33:36.149-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="cert2"
+                            size="16"
+                            text="https://cursos.alura.com.br/certificate/4ad81d87-33a3-483df.">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="2"
+                                    width="4"/>
+                            </cq:responsive>
+                        </text_vue_860434156_c_1973643643>
+                        <text_vue_860434156_c_2074186034
+                            jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-04T15:33:44.158-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="cert3"
+                            size="16"
+                            text="https://cursos.alura.com.br/certificate/4ad81d87-33a3-483df.">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="2"
+                                    width="4"/>
+                            </cq:responsive>
+                        </text_vue_860434156_c_2074186034>
+                        <text_vue_860434156_c_2024123930
+                            jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-04T15:34:04.569-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="cert4"
+                            size="16"
+                            text="https://cursos.alura.com.br/certificate/4ad81d87-33a3-483df.">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="2"
+                                    width="4"/>
+                            </cq:responsive>
+                        </text_vue_860434156_c_2024123930>
+                        <text_vue_860434156_c_424687867
+                            jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-04T15:34:11.269-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="cert4"
+                            size="16"
+                            text="https://cursos.alura.com.br/certificate/4ad81d87-33a3-483df.">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="2"
+                                    width="4"/>
+                            </cq:responsive>
+                        </text_vue_860434156_c_424687867>
+                    </responsivegrid_1432059036>
+                    <responsivegrid_1384640416
+                        jcr:created="{Date}2022-04-04T15:51:49.709-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-30T13:13:40.616-03:00"
+                        jcr:lastModified="{Date}2022-04-04T15:51:49.709-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        Id="succesTab"
-                        size="16"
-                        text="Age:">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="2"/>
-                        </cq:responsive>
-                    </text_vue_1693665085__1271350704>
-                    <text_vue_860434156_c_815749508
-                        jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <text_vue_1693665085_
+                            jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-03-30T13:14:01.203-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="succesTab"
+                            size="16"
+                            text="Team Name:">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="2"/>
+                            </cq:responsive>
+                        </text_vue_1693665085_>
+                        <text_vue_860434156_c
+                            jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-04T15:34:19.802-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="teamName"
+                            size="16"
+                            text="SquadOne">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="4"/>
+                            </cq:responsive>
+                        </text_vue_860434156_c>
+                    </responsivegrid_1384640416>
+                    <responsivegrid_1897957422
+                        jcr:created="{Date}2022-04-04T15:52:06.304-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T21:35:16.277-03:00"
+                        jcr:lastModified="{Date}2022-04-04T15:52:06.304-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        size="16"
-                        text="13">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </text_vue_860434156_c_815749508>
-                    <text_vue_1693665085__1823138012
-                        jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <text_vue_1693665085_
+                            jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-03-30T13:14:19.581-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="succesTab"
+                            size="16"
+                            text="Institution:">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="2"/>
+                            </cq:responsive>
+                        </text_vue_1693665085_>
+                        <text_vue_860434156_c
+                            jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-04T15:34:30.356-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="institution"
+                            size="16"
+                            text="Uol">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="4"/>
+                            </cq:responsive>
+                        </text_vue_860434156_c>
+                    </responsivegrid_1897957422>
+                    <responsivegrid_1757162568
+                        jcr:created="{Date}2022-04-04T15:52:17.026-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-30T13:13:46.028-03:00"
+                        jcr:lastModified="{Date}2022-04-04T15:52:17.026-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        Id="succesTab"
-                        size="16"
-                        text="GitHub:">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="2"/>
-                        </cq:responsive>
-                    </text_vue_1693665085__1823138012>
-                    <text_vue_860434156_c_1438234724
-                        jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T21:31:59.568-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        size="16"
-                        text="reisrafaell">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </text_vue_860434156_c_1438234724>
-                    <text_vue_1693665085__1020692765
-                        jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-30T13:13:56.945-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        Id="succesTab"
-                        size="16"
-                        text="Certificates:">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="2"/>
-                        </cq:responsive>
-                    </text_vue_1693665085__1020692765>
-                    <text_vue_860434156_c_389907882
-                        jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T21:32:08.678-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        size="16"
-                        text="https://cursos.alura.com.br/certificate/4ad81d87-33a3-483df.">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </text_vue_860434156_c_389907882>
-                    <text_vue_860434156_c_1456037718
-                        jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T21:32:12.735-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        size="16"
-                        text="https://cursos.alura.com.br/certificate/4ad81d87-33a3-483df.">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="2"
-                                width="4"/>
-                        </cq:responsive>
-                    </text_vue_860434156_c_1456037718>
-                    <text_vue_860434156_c_1782400055
-                        jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T21:32:17.526-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        size="16"
-                        text="https://cursos.alura.com.br/certificate/4ad81d87-33a3-483df.">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="2"
-                                width="4"/>
-                        </cq:responsive>
-                    </text_vue_860434156_c_1782400055>
-                    <text_vue_860434156_c_191863243
-                        jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T21:32:20.712-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        size="16"
-                        text="https://cursos.alura.com.br/certificate/4ad81d87-33a3-483df.">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="2"
-                                width="4"/>
-                        </cq:responsive>
-                    </text_vue_860434156_c_191863243>
-                    <text_vue_860434156_c_2123638654
-                        jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T21:32:23.829-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        size="16"
-                        text="https://cursos.alura.com.br/certificate/4ad81d87-33a3-483df.">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="2"
-                                width="4"/>
-                        </cq:responsive>
-                    </text_vue_860434156_c_2123638654>
-                    <text_vue_1693665085__514022008
-                        jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-30T13:14:01.203-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        Id="succesTab"
-                        size="16"
-                        text="Team Name:">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="2"/>
-                        </cq:responsive>
-                    </text_vue_1693665085__514022008>
-                    <text_vue_860434156_c_1557605324
-                        jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T21:36:45.844-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        size="16"
-                        text="SquadOne">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </text_vue_860434156_c_1557605324>
-                    <text_vue_1693665085__420110077
-                        jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-30T13:14:19.581-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        Id="succesTab"
-                        size="16"
-                        text="Institution:">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="2"/>
-                        </cq:responsive>
-                    </text_vue_1693665085__420110077>
-                    <text_vue_860434156_c_1517875456
-                        jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T21:36:51.044-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        size="16"
-                        text="Uol">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </text_vue_860434156_c_1517875456>
-                    <text_vue_1693665085__2138683374
-                        jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-30T13:14:15.023-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        Id="succesTab"
-                        size="16"
-                        text="Graduation:">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="2"/>
-                        </cq:responsive>
-                    </text_vue_1693665085__2138683374>
-                    <text_vue_860434156_c_388680065
-                        jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T21:37:12.720-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="vue/components/text-vue"
-                        Color=" #000000"
-                        size="16"
-                        text="em análise">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="4"/>
-                        </cq:responsive>
-                    </text_vue_860434156_c_388680065>
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <text_vue_1693665085_
+                            jcr:created="{Date}2022-03-27T16:32:30.257-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-03-30T13:14:15.023-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="succesTab"
+                            size="16"
+                            text="Graduation:">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="2"/>
+                            </cq:responsive>
+                        </text_vue_1693665085_>
+                        <text_vue_860434156_c
+                            jcr:created="{Date}2022-03-27T16:32:50.415-03:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-04-04T15:34:39.177-03:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue/components/text-vue"
+                            Color=" #000000"
+                            Id="graduation"
+                            size="16"
+                            text="em análise">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="4"/>
+                            </cq:responsive>
+                        </text_vue_860434156_c>
+                    </responsivegrid_1757162568>
                     <custom_vue
                         jcr:created="{Date}2022-03-26T21:43:41.525-03:00"
                         jcr:createdBy="admin"
