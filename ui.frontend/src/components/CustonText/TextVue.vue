@@ -105,12 +105,10 @@ export default {
     const certificatesBox2PageDiv3 = document.querySelector('[cqpath="/content/vue/vue/second-tab/jcr:content/root/responsivegrid/responsivegrid_16067/responsivegrid_26449/responsivegrid_26449/text_vue_1450046854"] ')
 
     elementThirdBox.style.backgroundColor = '#fff'
-    elementThirdBox.style.height = '76vh'
     elementThirdBox.style.display = 'flex'
     elementThirdBox.style.flexDirection = 'column'
     elementThirdBox.style.borderRadius = '20px'
-    elementThirdBox.style.margin = '2% auto'
-    elementThirdBox.style.width = '70%'
+    elementThirdBox.style.marginTop = '2%'
     elementThirdBox.style.justifyContent = 'space-between'
 
     certificatesBox2Page.style.display = 'flex'

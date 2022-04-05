@@ -29,8 +29,7 @@ export default {
     if (elementSUccessBox) {
       elementSUccessBox.style.backgroundColor = '#fff'
       elementSUccessBox.style.borderRadius = '20px'
-      elementSUccessBox.style.margin = '2% auto'
-      elementSUccessBox.style.MaxWidth = '750px'
+      elementSUccessBox.style.marginTop = '2% '
     }
   }
 }

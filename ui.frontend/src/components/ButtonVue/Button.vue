@@ -111,14 +111,7 @@ export default {
 
   updated () {
     const elementThirdBox = document.querySelector('[cqpath="/content/vue/vue/trird-tab/jcr:content/root/responsivegrid/responsivegrid_25683"] div')
-    elementThirdBox.style.backgroundColor = '#fff'
-    elementThirdBox.style.height = '76vh'
-    elementThirdBox.style.display = 'flex'
-    elementThirdBox.style.flexDirection = 'column'
-    elementThirdBox.style.borderRadius = '20px'
-    elementThirdBox.style.margin = '2% auto'
-    elementThirdBox.style.width = '70%'
-    elementThirdBox.style.justifyContent = 'space-between'
+    elementThirdBox.style.cssText = 'background-color: #fff; border-radius: 20px; display: flex; justify-content: space-between ;  flex-direction: column; margin-top: 2%; '
   }
 }
 </script>

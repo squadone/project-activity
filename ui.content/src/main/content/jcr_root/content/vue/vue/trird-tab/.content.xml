@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-04-01T21:52:57.312-03:00"
+        cq:lastModified="{Date}2022-04-05T19:37:17.644-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/vue/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -62,18 +62,33 @@
                             jcr:primaryType="nt:unstructured"
                             offset="2"
                             width="8"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
                     </cq:responsive>
                     <title_vue_component_
                         jcr:created="{Date}2022-03-26T19:08:56.296-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T20:27:00.722-03:00"
+                        jcr:lastModified="{Date}2022-04-02T16:28:24.513-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/Title-vue-component"
                         Color="#111111"
-                        Id="titleTeamSingUp"
+                        Id="titleTeamSingUpThird"
                         size="18"
-                        text="Team Sign Up"/>
+                        text="Team Sign Up">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="7"/>
+                        </cq:responsive>
+                    </title_vue_component_>
                     <responsivegrid_26449
                         jcr:created="{Date}2022-03-26T19:12:32.597-03:00"
                         jcr:createdBy="admin"
@@ -81,7 +96,21 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
-                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="6"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
+                                offset="3"
+                                width="7"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                behavior="hide"
+                                offset="0"
+                                width="12"/>
+                        </cq:responsive>
                         <text_vue
                             jcr:created="{Date}2022-03-26T19:10:49.632-03:00"
                             jcr:createdBy="admin"
@@ -98,6 +127,10 @@
                                     jcr:primaryType="nt:unstructured"
                                     offset="0"
                                     width="2"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="3"/>
                             </cq:responsive>
                         </text_vue>
                         <text_vue_236760537
@@ -114,7 +147,11 @@
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
-                                    offset="1"
+                                    offset="0"
+                                    width="2"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="2"
                                     width="2"/>
                             </cq:responsive>
                         </text_vue_236760537>
@@ -132,25 +169,39 @@
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
-                                    offset="1"
+                                    offset="0"
                                     width="2"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="7"
+                                    width="3"/>
                             </cq:responsive>
                         </text_vue_1450046854>
                     </responsivegrid_26449>
                     <input_vue
                         jcr:created="{Date}2022-03-26T20:58:35.732-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-03-27T16:22:56.059-03:00"
+                        jcr:lastModified="{Date}2022-04-02T17:19:24.069-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/input-vue"
+                        class="inputsThirdTab"
                         field="Certificates"
+                        id="inputsThirdTab"
                         type="Text">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
                                 offset="1"
                                 width="6"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
+                                offset="3"
+                                width="6"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
                         </cq:responsive>
                     </input_vue>
                     <responsivegrid
@@ -160,11 +211,24 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wcm/foundation/components/responsivegrid">
-                        <cq:responsive jcr:primaryType="nt:unstructured"/>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="7"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
+                                offset="3"
+                                width="9"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
+                        </cq:responsive>
                         <select_vue
-                            jcr:created="{Date}2022-04-01T18:53:53.049-03:00"
+                            jcr:created="{Date}2022-04-05T16:57:39.595-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-04-01T18:54:03.955-03:00"
+                            jcr:lastModified="{Date}2022-04-05T16:58:00.252-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/select-vue"
@@ -172,26 +236,35 @@
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
-                                    offset="1"
+                                    offset="0"
+                                    width="2"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
                                     width="3"/>
                             </cq:responsive>
                         </select_vue>
-                        <responsivegrid
-                            jcr:created="{Date}2022-03-30T15:47:01.690-03:00"
+                        <custom_vue
+                            jcr:created="{Date}2022-03-27T16:23:05.171-03:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2022-03-31T17:30:26.401-03:00"
+                            jcr:lastModified="{Date}2022-04-02T21:00:55.090-03:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="vue/components/custom-vue"
                             ButtonId="third"
                             Class="fa-solid fa-angle-right"
                             ClassLeft="fa-solid fa-plus"
-                            field="More">
+                            field="More"
+                            Id="buttonMore">
                             <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
                                     jcr:primaryType="nt:unstructured"
-                                    offset="2"
+                                    offset="3"
                                     width="2"/>
+                                <tablet
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="5"
+                                    width="4"/>
                             </cq:responsive>
                         </custom_vue>
                         <text_vue
@@ -234,11 +307,13 @@
                     <input_vue_192953014
                         jcr:created="{Date}2022-03-26T21:01:02.281-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-01T17:13:15.524-03:00"
+                        jcr:lastModified="{Date}2022-04-02T16:10:17.299-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/input-vue"
+                        class="inputsThirdTab"
                         field="Team Name *"
+                        id="inputsThirdTab"
                         textError="teamNameError"
                         textErrorMessase="Please enter your Team Name"
                         type="Text">
@@ -247,16 +322,26 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="1"
                                 width="6"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
+                                offset="3"
+                                width="6"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
                         </cq:responsive>
                     </input_vue_192953014>
                     <input_vue_1088184226
                         jcr:created="{Date}2022-03-27T16:24:44.572-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-01T17:14:18.788-03:00"
+                        jcr:lastModified="{Date}2022-04-02T16:10:21.138-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/input-vue"
+                        class="inputsThirdTab"
                         field="Institution *"
+                        id="inputsThirdTab"
                         textError="institutinError"
                         textErrorMessase="Please enter your Institution"
                         type="Text">
@@ -265,16 +350,26 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="1"
                                 width="6"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
+                                offset="3"
+                                width="6"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
                         </cq:responsive>
                     </input_vue_1088184226>
                     <input_vue_189874029
                         jcr:created="{Date}2022-03-27T16:24:48.209-03:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2022-04-01T17:15:23.605-03:00"
+                        jcr:lastModified="{Date}2022-04-02T16:10:25.341-03:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/input-vue"
+                        class="inputsThirdTab"
                         field="Graduation *"
+                        id="inputsThirdTab"
                         textError="graduationError"
                         textErrorMessase="Please enter your Graduation"
                         type="Text">
@@ -283,6 +378,14 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="1"
                                 width="6"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
+                                offset="3"
+                                width="6"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="1"
+                                width="10"/>
                         </cq:responsive>
                     </input_vue_189874029>
                     <custom_vue_543141912
@@ -292,6 +395,7 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="vue/components/custom-vue"
+                        ButtonId="ThirdTab"
                         ClassLeft="fa-solid fa-check"
                         field="Finish">
                         <cq:responsive jcr:primaryType="nt:unstructured">
@@ -299,6 +403,14 @@
                                 jcr:primaryType="nt:unstructured"
                                 offset="6"
                                 width="1"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
+                                offset="7"
+                                width="5"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="6"
+                                width="5"/>
                         </cq:responsive>
                     </custom_vue_543141912>
                 </responsivegrid_25683>

@@ -28,7 +28,7 @@ export default {
     const element = document.querySelector('[cqpath="/content/vue/vue/first-tab/jcr:content/root/responsivegrid/responsivegrid_20885"] div')
     const elementAgeBox = document.querySelector('[cqpath="/content/vue/vue/first-tab/jcr:content/root/responsivegrid/responsivegrid_20885/responsivegrid/responsivegrid_15929"]')
 
-    selectContainer.style.cssText = 'display:flex; align-items:center; justify-content: space-around;'
+    selectContainer.style.cssText = ' display:flex; align-items:center; justify-content: space-around; flex-flow: row wrap;'
     selectContainerDiv.style.cssText = 'margin:0 '
 
     element.style.cssText = 'background-color: #fff; border-radius: 20px; margin-top:2%; display: flex; flex-direction: column; justify-content: space-between ; '

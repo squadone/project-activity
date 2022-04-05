@@ -87,24 +87,20 @@ export default {
     const elementSecondBoxInput = document.querySelector('[ cqpath="/content/vue/vue/second-tab/jcr:content/root/responsivegrid/responsivegrid_16067/responsivegrid_25683"] ')
 
     elementSecondBox.style.backgroundColor = '#fff'
-    elementSecondBox.style.height = '76vh'
     elementSecondBox.style.display = 'flex'
     elementSecondBox.style.flexDirection = 'column'
     elementSecondBox.style.borderRadius = '20px'
-    elementSecondBox.style.margin = '2% auto'
-    elementSecondBox.style.width = '70%'
+    elementSecondBox.style.marginTop = '2% '
     elementSecondBox.style.paddingTop = '30px'
     elementSecondBoxTitle.style.margin = '30px auto'
     elementSecondBoxInput.style.marginBottom = '32vh'
 
     element.style.backgroundColor = '#fff'
-    element.style.height = '80vh'
     element.style.borderRadius = '20px'
     element.style.display = 'flex'
     element.style.flexDirection = 'column'
     element.style.justifyContent = 'space-between'
-    element.style.margin = '2% auto'
-    element.style.width = '70%'
+    element.style.marginTop = '2% '
 
     elementTitle.style.display = 'flex'
     elementTitle.style.justifyContent = 'center'
