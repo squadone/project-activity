@@ -21,29 +21,21 @@ export default {
   },
   updated () {
     const elementBasicDiv = document.querySelector('[cqpath="/content/vue/vue/first-tab/jcr:content/root/responsivegrid/responsivegrid_20885/responsivegrid_26449/responsivegrid_26449_963665979/text_vue"] ')
+    const selectContainerDiv = document.querySelector('[cqpath="/content/vue/vue/first-tab/jcr:content/root/responsivegrid/responsivegrid_20885/responsivegrid"] div div')
+    const selectContainer = document.querySelector('[cqpath="/content/vue/vue/first-tab/jcr:content/root/responsivegrid/responsivegrid_20885/responsivegrid"] div ')
     const elementBasic = document.querySelector('[ cqpath="/content/vue/vue/first-tab/jcr:content/root/responsivegrid/responsivegrid_20885/responsivegrid_26449/responsivegrid_26449_963665979"] ')
     const elementTitle = document.querySelector('[cqpath="/content/vue/vue/first-tab/jcr:content/root/responsivegrid/responsivegrid_20885/responsivegrid_26449/responsivegrid_26449_963665979"] div')
     const element = document.querySelector('[cqpath="/content/vue/vue/first-tab/jcr:content/root/responsivegrid/responsivegrid_20885"] div')
     const elementAgeBox = document.querySelector('[cqpath="/content/vue/vue/first-tab/jcr:content/root/responsivegrid/responsivegrid_20885/responsivegrid/responsivegrid_15929"]')
 
-    element.style.backgroundColor = '#fff'
-    element.style.height = '80vh'
-    element.style.borderRadius = '20px'
-    element.style.display = 'flex'
-    element.style.flexDirection = 'column'
-    element.style.justifyContent = 'space-between'
-    element.style.margin = '2% auto'
-    element.style.width = '70%'
+    selectContainer.style.cssText = 'display:flex; align-items:center; justify-content: space-around;'
+    selectContainerDiv.style.cssText = 'margin:0 '
 
-    elementTitle.style.display = 'flex'
-    elementTitle.style.justifyContent = 'center'
-    elementTitle.style.width = '100%'
-    elementAgeBox.style.marginLeft = '14%'
-    elementBasic.style.display = 'flex'
-    elementBasic.style.justifyContent = 'certer'
-
-    elementBasicDiv.style.width = '30%'
-    elementBasicDiv.style.margin = '0'
+    element.style.cssText = 'background-color: #fff; border-radius: 20px; margin-top:2%; display: flex; flex-direction: column; justify-content: space-between ; '
+    elementTitle.style.cssText = 'display: flex; justify-content: center; width: 100%;'
+    elementBasicDiv.style.cssText = 'width: 30%; margin: 0;'
+    elementBasic.style.cssText = 'display: flex; justify-content: center;'
+    elementAgeBox.style.cssText = 'display: flex; justify-content: center; margin-left: 14%;'
   }
 }
 </script>

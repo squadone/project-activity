@@ -1,6 +1,8 @@
 <template>
-
+<div>
+  <p id="custom">{{custom}}</p>
   <p :id="Id" class="text-vue" :style="{fontFamily: fontFamily, color: Color, fontSize: size +'px'}">{{text}}</p>
+</div>
 
 </template>
 
@@ -27,6 +29,10 @@ export default {
     fontFamily: {
       type: String,
       default: 'Nunito'
+    },
+    custom: {
+      type: String,
+      default: ''
     }
   },
   methods: {
