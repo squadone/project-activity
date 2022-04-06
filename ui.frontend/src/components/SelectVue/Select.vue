@@ -87,10 +87,12 @@ export default {
     },
     delCertif () {
       const certBox = document.querySelector(`#${this.label}-id`)
+      const message = document.querySelector('#textNotMore')
       if (certBox.options[certBox.selectedIndex].value !== 'default') {
         const cert = certBox.options[certBox.selectedIndex].value
         sessionStorage.removeItem(`${cert}`)
         certBox.removeChild(document.querySelector(`#${cert}`))
+        message.style.display = 'none'
       }
     },
     calcAge () {

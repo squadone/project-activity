@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-04-05T19:37:17.644-03:00"
+        cq:lastModified="{Date}2022-04-05T23:20:07.558-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/vue/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -89,6 +89,32 @@
                                 width="7"/>
                         </cq:responsive>
                     </title_vue_component_>
+                    <text_vue_1450046854_
+                        jcr:created="{Date}2022-03-26T19:12:01.465-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-03-27T20:40:23.581-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="vue/components/text-vue"
+                        Color=" #074EE8"
+                        Id="textCertificatesThirdTab"
+                        size="16"
+                        text="Certificates">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                behavior="hide"
+                                offset="0"
+                                width="2"/>
+                            <phone
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                            <tablet
+                                jcr:primaryType="nt:unstructured"
+                                behavior="hide"/>
+                        </cq:responsive>
+                    </text_vue_1450046854_>
                     <responsivegrid_26449
                         jcr:created="{Date}2022-03-26T19:12:32.597-03:00"
                         jcr:createdBy="admin"
@@ -265,6 +291,10 @@
                                     jcr:primaryType="nt:unstructured"
                                     offset="5"
                                     width="4"/>
+                                <phone
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="4"
+                                    width="1"/>
                             </cq:responsive>
                         </custom_vue>
                         <text_vue
@@ -409,8 +439,8 @@
                                 width="5"/>
                             <phone
                                 jcr:primaryType="nt:unstructured"
-                                offset="6"
-                                width="5"/>
+                                offset="8"
+                                width="3"/>
                         </cq:responsive>
                     </custom_vue_543141912>
                 </responsivegrid_25683>
